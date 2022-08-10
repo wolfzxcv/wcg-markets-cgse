@@ -1,3 +1,4 @@
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -11,7 +12,7 @@ const Products: React.FC<{}> = () => {
       bg="#041c27"
       justify="center"
       align="center"
-      color="white"
+      color={COMMON_FONT_COLOR}
       pt={{ base: 10, md: '120px' }}
       pb={{ base: 10, md: '150px' }}
     >

@@ -1,3 +1,4 @@
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, keyframes } from '@chakra-ui/react';
 import styled from '@emotion/styled';
@@ -121,7 +122,7 @@ const CardEach: React.FC<CardEachProps> = ({ animation, cardNo }) => {
       borderRadius="20px"
       boxShadow={'rgba(0, 0, 0, 0.25) 0px 3px 3px'}
       my={3}
-      bgColor="white"
+      bgColor={COMMON_FONT_COLOR}
     >
       <Box m={3} textAlign="center">
         <FaDotCircle />
@@ -583,7 +584,7 @@ const StyledRedBlockDiagram = styled.div`
 
   .buy-in {
     background-color: #176af3;
-    color: white;
+    color: ${COMMON_FONT_COLOR};
   }
 
   .sell-out {

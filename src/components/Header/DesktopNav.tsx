@@ -1,5 +1,6 @@
 import { IMenuItem, menuList } from '@/assets/menuList';
 import {
+  COMMON_FONT_COLOR,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER,
   TRANSITION
@@ -13,7 +14,7 @@ import React from 'react';
 
 const DesktopNav: React.FC<{}> = () => {
   return (
-    <Flex color="white">
+    <Flex color={COMMON_FONT_COLOR}>
       {menuList.map((each) => (
         <DesktopNavItem
           key={each.i18n}

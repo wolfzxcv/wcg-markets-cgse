@@ -1,3 +1,4 @@
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Box, Flex, Image, Stack } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -12,7 +13,7 @@ const RedBlock: React.FC<{}> = () => {
       bg="#b81c22"
       justify="center"
       align="center"
-      color="white"
+      color={COMMON_FONT_COLOR}
       py={{ base: 10, md: '50px' }}
     >
       <Flex

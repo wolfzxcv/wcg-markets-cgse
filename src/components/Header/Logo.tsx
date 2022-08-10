@@ -1,3 +1,4 @@
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import NextLink from 'next/link';
@@ -16,7 +17,7 @@ const Logo: React.FC<{}> = () => {
         </Box>
         <Box
           display={{ base: 'none', xl: 'block' }}
-          color="white"
+          color={COMMON_FONT_COLOR}
           fontSize="xl"
           px={2}
         >

@@ -1,3 +1,4 @@
+import { TRANSITION } from '@/assets/styleConfig';
 import { Locales, locales, localesOptions } from '@/i18n/config';
 import { getCookie, isUsingMobile, setCookie } from '@/utils';
 import {
@@ -77,7 +78,7 @@ const MobileLangSelector: React.FC<MobileLangSelectorProps> = ({
         <DrawerHeader borderBottomWidth="1px" onClick={onClose}>
           <Flex align="center" fontWeight="700" fontSize="16px">
             <Box mr="2">
-              {uppercase ? t('language').toUpperCase() : t('language')}{' '}
+              {uppercase ? t('language').toUpperCase() : t('language')}
             </Box>
             <ImEarth />
           </Flex>
@@ -87,14 +88,9 @@ const MobileLangSelector: React.FC<MobileLangSelectorProps> = ({
             <Box
               key={locale}
               onClick={() => handleLanguageChange(locale)}
-              _hover={{
-                cursor: 'pointer',
-                bg: '#e2e2e2',
-                opacity: 0.7
-              }}
               px="5"
               py="2"
-              transition="all .5s ease"
+              transition={TRANSITION}
               fontWeight={700}
               color={currentLang === locale ? 'red.600' : 'inherit'}
             >

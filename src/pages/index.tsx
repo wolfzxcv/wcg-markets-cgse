@@ -1,5 +1,4 @@
 import Wrapper from '@/components/Base/Wrapper';
-import HorizontalStrip from '@/components/Home/HorizontalStrip';
 import MediaAwards from '@/components/Home/MediaAwards';
 import Products from '@/components/Home/Products';
 import RedBlock from '@/components/Home/RedBlock';
@@ -9,9 +8,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
-      {/* $25up no limit */}
-      <HorizontalStrip />
-
       {/* Products */}
       <Products />
 

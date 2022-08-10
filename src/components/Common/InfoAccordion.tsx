@@ -1,3 +1,4 @@
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import {
   Accordion,
@@ -72,7 +73,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
           {date && (
             <Box
               bg="gray.500"
-              color="white"
+              color={COMMON_FONT_COLOR}
               px={{ base: 1, md: 2 }}
               py={1}
               mr={{ base: 3, md: 20 }}
@@ -172,7 +173,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
                     mb={10}
                     p={2}
                     bg="red.600"
-                    color="white"
+                    color={COMMON_FONT_COLOR}
                     fontSize="14px"
                     textAlign="center"
                     width="250px"

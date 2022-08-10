@@ -1,5 +1,6 @@
 import {
   COMMON_BG,
+  COMMON_FONT_COLOR,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
@@ -75,7 +76,7 @@ const DesktopLangSelector: React.FC<{}> = () => {
             border="1px"
             borderColor={LIVE_CHAT_BORDER}
             bg={COMMON_BG}
-            color="white"
+            color={COMMON_FONT_COLOR}
             px={2}
             py={1}
             align="center"
@@ -105,8 +106,11 @@ const DesktopLangSelector: React.FC<{}> = () => {
               <MenuItem
                 key={locale}
                 onClick={() => handleLanguageChange(locale)}
-                color="white"
+                color={COMMON_FONT_COLOR}
                 _hover={{ bg: 'transparent', ...HOVER_PARAMS }}
+                style={{
+                  backgroundColor: COMMON_BG
+                }}
               >
                 <Text display="block">
                   {localesOptions.find((x) => x.code === locale)?.value ||

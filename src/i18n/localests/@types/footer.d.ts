@@ -2,28 +2,52 @@ export type Footer = {
   /********
    * footer
    ********/
-  /** Privacy policy */
-  privacyPolicy: string;
+  /** about us */
+  aboutUs: string;
+  /** advantage */
+  advantage: string;
+  /** license */
+  license: string;
+  /** software download */
+  softwareDownload: string;
+  /** IOS download */
+  IOSDownload: string;
+  /** Android download */
+  AndroidDownload: string;
+  /** Windows download */
+  WindowsDownload: string;
+  /** Open Account */
+  openAccount: string;
+  /** Open Real Account */
+  openRealAccount: string;
+  /** Open Demo Account */
+  openDemoAccount: string;
+  /** Read contract details */
+  readContractDetails: string;
   /** Terms And Conditions */
   termsAndConditions: string;
-  /** Dispute Settlement */
-  disputeSettlement: string;
-  /** Risk Disclaimer */
-  riskDisclaimer: string;
-  /** AML Policy */
-  amlPolicy: string;
-  /** followUs */
-  followUs: string;
-  /** WCGIsABusinessBrand */
-  WCGIsABusinessBrand: string;
-  /** WCGMarketsIsALimitedLiabilityCompany */
-  WCGMarketsIsALimitedLiabilityCompany: string;
-  /** WCGMarketsIsRegulatedByTheFINTRAC */
-  WCGMarketsIsRegulatedByTheFINTRAC: string;
-  /** WCGGlobalLtd */
-  WCGGlobalLtd: string;
-  /** HighRiskInvestmentWarning */
-  HighRiskInvestmentWarning: string;
-  /** restrictedAreas */
-  restrictedAreas: string;
+  /** Risk Disclosure */
+  riskDisclosure: string;
+  /** Disclaimer */
+  disclaimer: string;
+  /** Privacy policy */
+  privacyPolicy: string;
+  /** honorary award */
+  honoraryAward: string;
+  /** honorary award 1 */
+  honoraryAward1: string;
+  /** honorary award 2 */
+  honoraryAward2: string;
+  /** honorary award 3 */
+  honoraryAward3: string;
+  /** honorary award 4 */
+  honoraryAward4: string;
+  /** honorary award 5 */
+  honoraryAward5: string;
+  /** contact us */
+  contactUs: string;
+  /** copyright */
+  copyright: string;
+  /** risk warning */
+  riskWarning: string;
 };

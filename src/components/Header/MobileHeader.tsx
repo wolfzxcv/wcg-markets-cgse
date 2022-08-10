@@ -1,4 +1,4 @@
-import { COMMON_BG } from '@/assets/styleConfig';
+import { COMMON_BG, COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Box, Flex, useDisclosure } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -28,7 +28,7 @@ const MobileHeader: React.FC<{}> = () => {
       <Flex
         px="5"
         bg={COMMON_BG}
-        color="white"
+        color={COMMON_FONT_COLOR}
         height="60px"
         justify="space-between"
         align="center"

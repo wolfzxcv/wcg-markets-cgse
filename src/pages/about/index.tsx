@@ -1,4 +1,5 @@
 import { links } from '@/assets/links';
+import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import Wrapper from '@/components/Base/Wrapper';
 import InViewSlideFade from '@/components/Common/InViewSlideFade';
 import { openChatWindow } from '@/utils';
@@ -24,7 +25,7 @@ const about: React.FC<{}> = () => {
         <Flex
           flexDir="column"
           align="center"
-          color="white"
+          color={COMMON_FONT_COLOR}
           fontSize={{ base: '20px', md: '24px' }}
           mb={{ base: '20px', md: '50px' }}
           width={{ base: '90vw', md: '70vw' }}
@@ -33,7 +34,7 @@ const about: React.FC<{}> = () => {
           <Box>{t('yearsOfCredibility')}</Box>
           <Box
             border="1px"
-            borderColor="white"
+            borderColor={COMMON_FONT_COLOR}
             width="250px"
             textAlign="center"
             py={2}
@@ -57,11 +58,11 @@ const about: React.FC<{}> = () => {
           />
 
           <ContactIcon
-            href={links.line}
+            href={links.wechat}
             imageSrc="../assets/images/contact_line.png"
           />
           <ContactIcon
-            href={links.whatsApp}
+            href={links.wechat}
             imageSrc="../assets/images/contact_whatsapp.png"
           />
           <ContactIcon
@@ -69,7 +70,7 @@ const about: React.FC<{}> = () => {
             imageSrc="../assets/images/contact_email.png"
           />
           <ContactIcon
-            href={links.telegram}
+            href={links.wechat}
             imageSrc="../assets/images/contact_telegram.png"
           />
         </Flex>

@@ -1,21 +1,30 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
+  aboutUs: '关于我们',
+  advantage: '公司优势',
+  license: '牌照证书',
+  softwareDownload: '软件下载',
+  IOSDownload: 'MT4 IOS版本下载',
+  AndroidDownload: 'MT4 Android版本下载',
+  WindowsDownload: 'MT4 Windows 版本下载',
+  openAccount: '立即开户',
+  openRealAccount: '开立真实账户',
+  openDemoAccount: '开立模拟账户',
+  readContractDetails: '查看合约细节',
+  termsAndConditions: '条款声明',
+  riskDisclosure: '风险批露',
+  disclaimer: '免责声明',
   privacyPolicy: '隐私条款',
-  termsAndConditions: '条款细则',
-  disputeSettlement: '争端处理',
-  riskDisclaimer: '免责申明',
-  amlPolicy: '防止洗黑钱条款',
-  followUs: '跟随我们',
-  WCGIsABusinessBrand: 'WCG是由多家公司共同使用的业务品牌，包括：',
-  WCGMarketsIsALimitedLiabilityCompany:
-    'WCG Markets 是位于圣文森特和格林纳丁斯群岛St.Vincent依据国际商业公司法注册的有限责任公司，公司编号为26087 BC 2020。注册地址是： The Financial Services Centre Stoney Ground, Kingstown, St.Vincent & the Grenadines.',
-  WCGMarketsIsRegulatedByTheFINTRAC:
-    'WCG Markets 获加拿大金融情报部门(FIU)加拿大金融交易和报告分析中心(FINTRAC)监管，MSB牌照编号为 M20282836。注册地址是： 150-10451 Shellbridge Way, Richmond BC V6X 2W8, Canada.',
-  WCGGlobalLtd:
-    'Wenchuan Global Ltd 是于英国注册成立的有限责任公司，公司编号为 11019948。注册地址是： 5th Floor, 3 Gower Street, London, UK, WC1E 6HA',
-  HighRiskInvestmentWarning:
-    '高风险投资警告：差价合约（CFD）属于复杂的金融产品，其使用杠杆交易的属性导致本金快速亏损的可能性较高，您有可能因此被要求追加保证金。请在入市前先了解差价合约的产品原理并考虑是否能够承受此风险。所有金融衍生产品工具的过往价格与表现并不担保或代表未来走势。此类金融产品并不适合所有投资者，请务必在入市前完全了解所有潜在的风险，并在有需要时寻求独立意见。',
-  restrictedAreas:
-    '受限制地区：WCG Markets 的网站信息不针对加拿大的卑诗省、魁北克省和萨斯喀彻温省地区、日本、朝鲜、伊朗、美国以及香港的居民；并且不向身处与发布或使用该信息有违当地法律法规的国家或管辖地之人发送或供其使用。'
+  honoraryAward: '荣誉奖项',
+  honoraryAward1: '最佳金融服务大奖',
+  honoraryAward2: '最具成长性经纪商',
+  honoraryAward3: '金融界优秀交易平台奖',
+  honoraryAward4: '中国金融行业最具投资者信赖奖',
+  honoraryAward5: '互联网金融最具创新大奖',
+  contactUs: '联系我们',
+  copyright:
+    'Copyright 2022 All Rights Reserved WCG Markets (HK) Limited  版权所有，不得转载',
+  riskWarning:
+    '风险警告：保证金交易具高风险，投资者投资时需视乎自身的能力。投资有盈有亏，您可能因此损失全部本金。保证金交易不一定适合所有投资者，交易前请确认您已完全了解相关风险。'
 };

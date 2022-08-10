@@ -1,5 +1,6 @@
 import {
   COMMON_BG,
+  COMMON_FONT_COLOR,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
@@ -28,7 +29,7 @@ const DesktopHeader: React.FC<{}> = () => {
         <DesktopNav />
         <Flex
           align="center"
-          color="white"
+          color={COMMON_FONT_COLOR}
           _hover={HOVER_PARAMS}
           onClick={openChatWindow}
           border="1px"
