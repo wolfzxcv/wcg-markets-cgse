@@ -72,7 +72,7 @@ const MobileLangSelector: React.FC<MobileLangSelectorProps> = ({
   };
 
   return (
-    <Drawer placement={'right'} onClose={onClose} isOpen={isOpen}>
+    <Drawer placement={'left'} onClose={onClose} isOpen={isOpen}>
       <DrawerOverlay />
       <DrawerContent>
         <DrawerHeader borderBottomWidth="1px" onClick={onClose}>

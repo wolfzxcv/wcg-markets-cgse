@@ -30,7 +30,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
 
   return (
     <Drawer
-      placement={'left'}
+      placement={'right'}
       onClose={onClose}
       isOpen={isOpen}
       blockScrollOnMount={true}

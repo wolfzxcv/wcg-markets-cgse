@@ -12,7 +12,7 @@ const Logo: React.FC<{}> = () => {
   return (
     <NextLink passHref={true} href="/" locale={currentLang}>
       <Flex align="center">
-        <Box width={{ base: '100%', xl: '30%' }}>
+        <Box width={{ base: '40%', xl: '30%' }}>
           <Image src="../assets/images/logo_header.png" alt="logo" />
         </Box>
         <Box
@@ -24,9 +24,9 @@ const Logo: React.FC<{}> = () => {
           |
         </Box>
         <Box
-          display={{ base: 'none', xl: 'block' }}
           color="#4cb1df"
-          fontSize="xl"
+          fontSize={{ base: '14px', xl: 'xl' }}
+          ml={{ base: 5, md: 0 }}
         >
           WE CONNECT GLOBAL
         </Box>

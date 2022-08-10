@@ -1,6 +1,5 @@
 import { COMMON_BG, COMMON_FONT_COLOR } from '@/assets/styleConfig';
-import { Box, Flex, useDisclosure } from '@chakra-ui/react';
-import { useTranslation } from 'next-i18next';
+import { Flex, useDisclosure } from '@chakra-ui/react';
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { ImEarth } from 'react-icons/im';
@@ -9,8 +8,6 @@ import MobileLangSelector from './MobileLangSelector';
 import MobileNav from './MobileNav';
 
 const MobileHeader: React.FC<{}> = () => {
-  const { t } = useTranslation('header');
-
   const {
     isOpen: isOpenMobileNav,
     onOpen: onOpenMobileNav,
@@ -35,23 +32,22 @@ const MobileHeader: React.FC<{}> = () => {
         fontWeight="700"
         borderBottom="1px"
       >
-        <Flex onClick={onOpenMobileNav} align="center">
-          <AiOutlineMenu />
-          <Box ml="2">{t('menu').toUpperCase()}</Box>
+        <Flex onClick={onOpenMobileLangSelector} align="center">
+          <ImEarth />
         </Flex>
 
         <Logo />
 
-        <Flex onClick={onOpenMobileLangSelector} align="center">
-          <Box mr="2">{t('language').toUpperCase()}</Box>
-          <ImEarth />
+        <Flex onClick={onOpenMobileNav} align="center">
+          <AiOutlineMenu />
         </Flex>
       </Flex>
-      <MobileNav isOpen={isOpenMobileNav} onClose={onCloseMobileNav} />
+
       <MobileLangSelector
         isOpen={isOpenMobileLangSelector}
         onClose={onCloseMobileLangSelector}
       />
+      <MobileNav isOpen={isOpenMobileNav} onClose={onCloseMobileNav} />
     </>
   );
 };
