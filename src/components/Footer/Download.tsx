@@ -8,7 +8,11 @@ const Download: React.FC<{}> = () => {
 
   return (
     <>
-      <Flex flexDir="column" width={{ base: '50%', sm: '25%' }}>
+      <Flex
+        flexDir="column"
+        width="25%"
+        display={{ base: 'none', md: 'block' }}
+      >
         <FooterItemTitle text={t('softwareDownload')} />
 
         <FooterItem text={t('IOSDownload')} href={links.mt4IOS} isExternal />

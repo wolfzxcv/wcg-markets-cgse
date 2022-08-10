@@ -6,7 +6,7 @@ const TermsAndConditions: React.FC<{}> = () => {
   const { t } = useTranslation('footer');
 
   return (
-    <Flex flexDir="column" width={{ base: '50%', sm: '25%' }}>
+    <Flex flexDir="column" width={{ base: '50%', md: '25%' }}>
       <FooterItemTitle text={t('termsAndConditions')} />
 
       <FooterItem text={t('riskDisclosure')} />

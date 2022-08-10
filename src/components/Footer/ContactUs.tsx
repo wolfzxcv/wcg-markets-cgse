@@ -7,11 +7,7 @@ const ContactUs: React.FC<{}> = () => {
   const { t } = useTranslation('footer');
 
   return (
-    <Flex
-      flexDir="column"
-      width={{ base: '100%', sm: '25%' }}
-      align={{ base: 'center', sm: 'flex-start' }}
-    >
+    <Flex flexDir="column" width={{ base: '100%', md: '25%' }}>
       <FooterItemTitle text={t('contactUs')} />
 
       <FooterItem

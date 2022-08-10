@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import Download from './Download';
-import { FooterItemBase } from './FooterItem';
+import { FooterItemBase, FooterItemTitle } from './FooterItem';
 import FooterLogo from './FooterLogo';
 import HonoraryAward from './HonoraryAward';
 import OpenAccountNow from './OpenAccountNow';
@@ -27,21 +27,27 @@ const Footer: React.FC<{}> = () => {
       py="100px"
     >
       {/* Mobile Logo */}
-      <Flex width="80vw" display={{ base: 'block', sm: 'none' }} mb={20}>
+      <Flex width="80vw" display={{ base: 'block', md: 'none' }} mb={20}>
         <FooterLogo />
       </Flex>
 
       <Flex width="80vw" maxW="1100px" wrap="wrap">
         <AboutUs />
         <Download />
+
         <OpenAccountNow />
+
+        <Flex width="50%" display={{ base: 'block', md: 'none' }}>
+          <FooterItemTitle text={t('softwareDownload')} />
+        </Flex>
+
         <TermsAndConditions />
       </Flex>
 
       <Flex width="80vw" maxW="1100px" wrap="wrap">
         {/* Desktop Logo */}
         <Flex
-          display={{ base: 'none', sm: 'block' }}
+          display={{ base: 'none', md: 'block' }}
           mt={5}
           width="50%"
           align="center"

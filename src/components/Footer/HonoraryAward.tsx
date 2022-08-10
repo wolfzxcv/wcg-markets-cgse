@@ -8,8 +8,8 @@ const HonoraryAward: React.FC<{}> = () => {
   return (
     <Flex
       flexDir="column"
-      width={{ base: '100%', sm: '25%' }}
-      align={{ base: 'center', sm: 'flex-start' }}
+      width={{ base: '100%', md: '25%' }}
+      my={{ base: 10, md: 0 }}
     >
       <FooterItemTitle text={t('honoraryAward')} />
 

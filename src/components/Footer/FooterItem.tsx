@@ -16,7 +16,7 @@ type FooterItemProps = FooterItemTitleProps & {
 export const FooterItemTitle: React.FC<FooterItemTitleProps> = ({
   text
 }: FooterItemTitleProps) => (
-  <Box fontSize={{ base: '14px', sm: '20px' }} pb={5} fontWeight={700}>
+  <Box fontSize={{ base: '14px', md: '20px' }} pb={5} fontWeight={700}>
     {text}
   </Box>
 );
@@ -45,11 +45,7 @@ export const FooterItem: React.FC<FooterItemProps> = ({
 export const FooterItemBase: React.FC<FooterItemTitleProps> = ({
   text
 }: FooterItemTitleProps) => (
-  <Box
-    fontSize={{ base: '10px', sm: '10px', md: '14px' }}
-    pb={1}
-    color={FOOTER_FONT_COLOR}
-  >
+  <Box fontSize={{ base: '12px', md: '14px' }} pb={1} color={FOOTER_FONT_COLOR}>
     {text}
   </Box>
 );
