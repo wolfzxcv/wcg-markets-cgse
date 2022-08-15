@@ -42,7 +42,7 @@ const DesktopHeader: React.FC<{}> = () => {
             width="22px"
             height="20px"
             src="../assets/images/live_chat_icon.png"
-            alt="Facebook"
+            alt="live_chat"
           />
           <Box>{t('liveChat')}</Box>
         </Flex>

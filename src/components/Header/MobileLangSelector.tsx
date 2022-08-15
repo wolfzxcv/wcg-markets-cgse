@@ -1,4 +1,4 @@
-import { TRANSITION } from '@/assets/styleConfig';
+import { LIVE_CHAT_BORDER, TRANSITION } from '@/assets/styleConfig';
 import { Locales, locales, localesOptions } from '@/i18n/config';
 import { getCookie, isUsingMobile, setCookie } from '@/utils';
 import {
@@ -92,7 +92,7 @@ const MobileLangSelector: React.FC<MobileLangSelectorProps> = ({
               py="2"
               transition={TRANSITION}
               fontWeight={700}
-              color={currentLang === locale ? 'red.600' : 'inherit'}
+              color={currentLang === locale ? LIVE_CHAT_BORDER : 'inherit'}
             >
               {localesOptions.find((x) => x.code === locale)?.value || locale}
             </Box>

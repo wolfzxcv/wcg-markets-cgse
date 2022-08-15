@@ -112,7 +112,10 @@ const DesktopLangSelector: React.FC<{}> = () => {
                   backgroundColor: COMMON_BG
                 }}
               >
-                <Text display="block">
+                <Text
+                  display="block"
+                  color={language === locale ? LIVE_CHAT_BORDER : 'inherit'}
+                >
                   {localesOptions.find((x) => x.code === locale)?.value ||
                     locale}
                 </Text>

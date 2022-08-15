@@ -30,15 +30,14 @@ const MobileHeader: React.FC<{}> = () => {
         justify="space-between"
         align="center"
         fontWeight="700"
-        borderBottom="1px"
       >
-        <Flex onClick={onOpenMobileLangSelector} align="center">
+        <Flex onClick={onOpenMobileLangSelector} align="center" fontSize="26px">
           <ImEarth />
         </Flex>
 
         <Logo />
 
-        <Flex onClick={onOpenMobileNav} align="center">
+        <Flex onClick={onOpenMobileNav} align="center" fontSize="26px">
           <AiOutlineMenu />
         </Flex>
       </Flex>

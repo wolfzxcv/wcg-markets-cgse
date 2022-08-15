@@ -1,21 +1,21 @@
 import Wrapper from '@/components/Base/Wrapper';
-import MediaAwards from '@/components/Home/MediaAwards';
-import Products from '@/components/Home/Products';
-import RedBlock from '@/components/Home/RedBlock';
+import HomeBanner from '@/components/Home/HomeBanner';
+import OurAdvantage from '@/components/Home/OurAdvantage';
+import SoftwareDownload from '@/components/Home/SoftwareDownload';
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
-      {/* Products */}
-      <Products />
+      {/* Home Banner */}
+      <HomeBanner />
 
-      {/* The world's top liquidity traders provide quotations */}
-      <RedBlock />
+      {/* Our Advantage */}
+      <OurAdvantage />
 
-      {/* Media Awards */}
-      <MediaAwards />
+      {/* Software Download */}
+      <SoftwareDownload />
     </Wrapper>
   );
 };
