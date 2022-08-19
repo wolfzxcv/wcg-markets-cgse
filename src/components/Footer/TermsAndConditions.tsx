@@ -9,11 +9,11 @@ const TermsAndConditions: React.FC<{}> = () => {
     <Flex flexDir="column" width={{ base: '50%', md: '25%' }}>
       <FooterItemTitle text={t('termsAndConditions')} />
 
-      <FooterItem text={t('riskDisclosure')} />
+      <FooterItem text={t('riskDisclosure')} href="/riskDisclosure" />
 
-      <FooterItem text={t('disclaimer')} />
+      <FooterItem text={t('disclaimer')} href="/disclaimer" />
 
-      <FooterItem text={t('privacyPolicy')} />
+      <FooterItem text={t('privacyPolicy')} href="/privacyPolicy" />
     </Flex>
   );
 };

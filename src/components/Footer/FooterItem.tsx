@@ -34,8 +34,16 @@ export const FooterItem: React.FC<FooterItemProps> = ({
       <FooterItemBase text={text} />
     </Link>
   ) : href ? (
-    <NextLink passHref={true} key={text} href={href} locale={currentLang}>
-      <FooterItemBase text={text} />
+    <NextLink passHref={true} href={href} locale={currentLang}>
+      <Box
+        _hover={HOVER_PARAMS}
+        fontSize={{ base: '12px', md: '14px' }}
+        pb={1}
+        pr={1}
+        color={FOOTER_FONT_COLOR}
+      >
+        {text}
+      </Box>
     </NextLink>
   ) : (
     <FooterItemBase text={text} />

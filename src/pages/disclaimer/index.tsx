@@ -3,6 +3,7 @@ import { Box, Flex, Heading } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import React from 'react';
 
 const disclaimer: React.FC<{}> = () => {
   const { t } = useTranslation('conditions');
