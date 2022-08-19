@@ -1,5 +1,5 @@
 import Wrapper from '@/components/Base/Wrapper';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box, Flex, Heading } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -8,8 +8,9 @@ const declared: React.FC<{}> = () => {
   const { t } = useTranslation('conditions');
   return (
     <Wrapper>
-      <Flex>
-        <Box>{t('disclaimer')} </Box>
+      <Flex my={10} direction="column" align="center">
+        <Heading size="lg">{t('disclaimer')} </Heading>
+
         <Box>{t('theInformation')}</Box>
       </Flex>
     </Wrapper>
