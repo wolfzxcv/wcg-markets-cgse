@@ -52,4 +52,10 @@ export type Common = {
   drawingToolsAndTechnicalAnalysisGuidance: string;
   /** Open Account */
   openAccount: string;
+  /** Open Account */
+  openAccount: string;
+  /** Open Account */
+  openAccount: string;
+  /** Open Account */
+  openAccount: string;
 };

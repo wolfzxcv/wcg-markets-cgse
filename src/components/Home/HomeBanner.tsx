@@ -49,7 +49,7 @@ const HomeBanner: React.FC<{}> = () => {
             <Flex
               flexDir="column"
               fontSize={{
-                base: isChinese ? '36px' : '16px',
+                base: isChinese ? '36px' : '18px',
                 md: isChinese ? '48px' : '36px'
               }}
               fontWeight={700}

@@ -23,8 +23,7 @@ export const footer: Footer = {
   honoraryAward4: '中国金融行业最具投资者信赖奖',
   honoraryAward5: '互联网金融最具创新大奖',
   contactUs: '联系我们',
-  copyright:
-    'Copyright 2022 All Rights Reserved WCG Markets (HK) Limited  版权所有，不得转载',
+  copyright: '版权所有，不得转载',
   riskWarning:
     '风险警告：保证金交易具高风险，投资者投资时需视乎自身的能力。投资有盈有亏，您可能因此损失全部本金。保证金交易不一定适合所有投资者，交易前请确认您已完全了解相关风险。'
 };
