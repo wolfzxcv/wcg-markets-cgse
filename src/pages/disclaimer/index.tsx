@@ -1,5 +1,5 @@
 import Wrapper from '@/components/Base/Wrapper';
-import { Box, Flex, Heading, Text } from '@chakra-ui/react';
+import { Flex, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -11,7 +11,8 @@ const disclaimer: React.FC<{}> = () => {
     <Wrapper>
       <Flex my={10} direction="column" align="center">
         <Heading size="lg">{t('disclaimer')} </Heading>
-        <Box w={'80vw'}>
+        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Stack spacing={3} w={'60vw'} fontSize={'16px'}>
           <Text>
             {t('theInformation')}
             {t('theCompanyShall')}
@@ -29,7 +30,7 @@ const disclaimer: React.FC<{}> = () => {
           <Text>{t('preciousMetal')}</Text>
           <Text>{t('pleaseRefer')}</Text>
           <Text>{t('theContent')}</Text>
-        </Box>
+        </Stack>
       </Flex>
     </Wrapper>
   );

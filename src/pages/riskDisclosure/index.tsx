@@ -15,12 +15,15 @@ const riskDisclosure: React.FC<{}> = () => {
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
         <Stack spacing={3} w={'60vw'} fontSize={'16px'}>
-          <Text>
-            {t('thisStatementDoesNot')}
-            {t('inViewOfTheRelevant')}
-            {t('customersMustCarefully')}
-            {t('customersShouldSeekLegal')}
-          </Text>
+          <RiskDisclosureItem
+            title=""
+            content={[
+              `${t('thisStatementDoesNot')}${t('inViewOfTheRelevant')}${t(
+                'customersMustCarefully'
+              )}${t('customersShouldSeekLegal')}`
+            ]}
+          />
+
           {/* 1.杠桿式效應 */}
           <RiskDisclosureItem
             title={t('leverageEffect')}
