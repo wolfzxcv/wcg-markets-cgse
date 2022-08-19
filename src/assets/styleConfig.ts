@@ -8,6 +8,8 @@ export const LIVE_CHAT_BORDER = '#e53e3e';
 
 export const LIGHT_GRAY = '#cccccc';
 
+export const DARK_GRAY = '#767676';
+
 export const HOVER_PARAMS = {
   cursor: 'pointer',
   opacity: 0.6,
