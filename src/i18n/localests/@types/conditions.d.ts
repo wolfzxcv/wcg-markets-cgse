@@ -2,7 +2,7 @@ export type Conditions = {
   /********
    * conditions
    ********/
-  //http://www.wc012.com/home/index/clause.html    Personal Data Privacy Policy 隐私条款
+  /**http://www.wc012.com/home/index/clause.html    Personal Data Privacy Policy 隐私条款*/
   privacyPolicy: string;
   theCompanyPersonal: string;
   whenTheCompany: string;
@@ -10,7 +10,7 @@ export type Conditions = {
   toThisEnd: string;
   allPersonalData: string;
   theCompanyIs: string;
-  theCompanywillStore: string;
+  theCompanyWillStore: string;
   customersMayFrom: string;
   theCustomerAgrees: string;
   thatTheCompany: string;
@@ -23,20 +23,20 @@ export type Conditions = {
   theCompanyGroup: string;
   mayBeUse: string;
   financialWealth: string;
-  rewardsPreferantial: string;
+  rewardsPreferential: string;
   servicesAndProducts: string;
   theAboveMentioned: string;
   inAdditionTo: string;
   theDataReferred: string;
   ifTheCustomer: string;
-  //http://www.wc012.com/home/about/license.html 牌照认证
+  /**  http://www.wc012.com/home/about/license.html 牌照认证 */
   exchangeSocietyMemberCertification: string;
   WCGIndustryCo: string;
   wasFoundedIn: string;
-  //http://www.wc012.com/home/index/risk.html 风险披露
+  /**http://www.wc012.com/home/index/risk.html 风险披露*/
   riskDisclosure: string;
   thisStatementDoesNot: string;
-  inViewOfTheRelevent: string;
+  inViewOfTheRelevant: string;
   customersMustCarefully: string;
   customersShouldSeekLegal: string;
   leverageEffect: string;
@@ -53,15 +53,15 @@ export type Conditions = {
   termsAndConditions: string;
   customersMustClearly: string;
   electronicTransactions: string;
-  transactionsCounducted: string;
+  transactionsConducted: string;
   customersWillBeExposed: string;
   thereforeTheCustomerAcknowledges: string;
   tradingFacilities: string;
-  mostelectronic: string;
+  mostElectronic: string;
   customersAbilityToRecover: string;
   exchangeOverTheCounter: string;
-  inSomeJursdictions: string;
-  WenChuanInternationl: string;
+  inSomeJurisdictions: string;
+  WenChuanInternational: string;
   soClosing: string;
   suspensionOrRestriction: string;
   marketCondition: string;
@@ -69,20 +69,20 @@ export type Conditions = {
   transactionsInOther: string;
   transactionsInOtherJurisdiction: string;
   beforeCommencing: string;
-  depostitedCash: string;
+  depositedCash: string;
   customersMustAcknowledge: string;
   theExtentTo: string;
   arrangementsFor: string;
   inOrderTo: string;
-  WenChuanInternationlDoes: string;
+  WenChuanInternationalDoes: string;
   ifTheCustomerUsesAn: string;
   ifTheCustomerAccount: string;
   ifTheTransaction: string;
   afterDeducting: string;
   forTheAbove: string;
-  tradingCommisions: string;
-  tradingCommissions: string;
-  customersShouldUndertand: string;
+  tradingCommissions1: string;
+  tradingCommissions2: string;
+  customersShouldUnderstand: string;
   accountUse: string;
   ifThereIs: string;
   customerWarning: string;
@@ -90,9 +90,9 @@ export type Conditions = {
   aboutOpening: string;
   theCustomerConfirms: string;
   tradingIsOnly: string;
-  bussinessDoes: string;
+  bushinessDoes: string;
   manyElectronic: string;
-  inTheOTCGOLD: string;
+  inTheOTC: string;
   circumstancesThat: string;
   ifTheCustomerEngages: string;
   systemFailures: string;
@@ -110,8 +110,8 @@ export type Conditions = {
   customersShould: string;
   transactionsMade: string;
   allCustomers: string;
-  //http://www.wc012.com/home/index/declared.html 免责申明
-  disclainer: string;
+  /**http://www.wc012.com/home/index/declared.html 免责申明*/
+  disclaimer: string;
   theInformation: string;
   theCompanyShall: string;
   thisWebsiteIs: string;
@@ -123,4 +123,67 @@ export type Conditions = {
   preciousMetal: string;
   pleaseRefer: string;
   theContent: string;
+  /**http://www.wc012.com/home/register/contract.html 合约细则*/
+  contractDetails: string;
+  generalInvestors: string;
+  forOrdinary: string;
+  leverageMargin: string;
+  theMarginFor: string;
+  overnightInterest: string;
+  whenCustomer: string;
+  theOvernightInterest: string;
+  rightClick: string;
+  ourOvernight: string;
+  weekendsHolidays: string;
+  swapPositions: string;
+  whenTheTraded: string;
+  holidaySwap: string;
+  theOvernightInterestQuotation: string;
+  pleaseSee: string;
+  theValidityPeriod: string;
+  ifNeeded: string;
+  transaction: string;
+  whenTheTransaction: string;
+  fullTransaction: string;
+  hedging: string;
+  throughWenChuan: string;
+  whenTrader: string;
+  whenClosing: string;
+  depositAndWithdrawal: string;
+  WenChuanWill: string;
+  WenChuanDealer: string;
+  depositAmount: string;
+  transactionVolume: string;
+  theCustomerRemarks: string;
+  administrativeFee: string;
+  specificSubsidies: string;
+  Slippage: string;
+  theCompanyMinimizes: string;
+  sometimesTheInvestment: string;
+  gapAndMarket: string;
+  whenEconomicData: string;
+  inSuchCases: string;
+  marketGapsAlso: string;
+  takeProfitAndStop: string;
+  lossOrdersMayBeExecuted: string;
+  ordersMayBeExecuted: string;
+  abnormalTransaction: string;
+  meanThatCustomers: string;
+  atTheSameTime: string;
+  inAdditionThere: string;
+  willOccupy: string;
+  protectTheInterests: string;
+  definitionOfAbnormal: string;
+  whenCustomerWithdraws: string;
+  whenTheHoldingTime: string;
+  whenThe: string;
+  ofTheTransaction: string;
+  theCustomerUses: string;
+  conductsTransactions: string;
+  useTheInternet: string;
+  whenTheNumber: string;
+  Approach: string;
+  ifAfterInvestigation: string;
+  confirmedThatAccount: string;
+  theInterpretation: string;
 };

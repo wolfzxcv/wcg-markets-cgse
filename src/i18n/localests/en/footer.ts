@@ -1,7 +1,7 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  aboutUs: 'About Us',
+  aboutUs: 'About Us~',
   advantage: 'Advantage',
   license: 'License',
   softwareDownload: 'Download',
