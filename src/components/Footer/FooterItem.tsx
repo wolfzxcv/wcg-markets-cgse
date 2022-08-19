@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 
 type FooterItemTitleProps = {
   text: string;
+  href?: string;
 };
 
 type FooterItemProps = FooterItemTitleProps & {
@@ -14,12 +15,29 @@ type FooterItemProps = FooterItemTitleProps & {
 };
 
 export const FooterItemTitle: React.FC<FooterItemTitleProps> = ({
-  text
-}: FooterItemTitleProps) => (
-  <Box fontSize={{ base: '14px', md: '20px' }} pb={5} fontWeight={700}>
-    {text}
-  </Box>
-);
+  text,
+  href
+}: FooterItemTitleProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  return href ? (
+    <NextLink passHref={true} href={href} locale={currentLang}>
+      <Box
+        _hover={HOVER_PARAMS}
+        fontSize={{ base: '14px', md: '20px' }}
+        pb={5}
+        fontWeight={700}
+      >
+        {text}
+      </Box>
+    </NextLink>
+  ) : (
+    <Box fontSize={{ base: '14px', md: '20px' }} pb={5} fontWeight={700}>
+      {text}
+    </Box>
+  );
+};
 
 export const FooterItem: React.FC<FooterItemProps> = ({
   text,

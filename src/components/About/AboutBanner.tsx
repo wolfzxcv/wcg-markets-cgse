@@ -47,12 +47,15 @@ const AboutBanner: React.FC<{}> = () => {
                 md: isChinese ? '48px' : '32px'
               }}
               fontWeight={700}
+              align={{ base: 'center', md: 'flex-start' }}
             >
               <Box>{t('integrityEstablishesTheWorld')}</Box>
               <Box>{t('steadyWinTheFuture')}</Box>
             </Flex>
 
-            <Box mt={10}>{t('WCGHasASolidFoundation')}</Box>
+            <Box mt={10} textAlign={{ base: 'center', md: 'left' }}>
+              {t('WCGHasASolidFoundation')}
+            </Box>
           </Flex>
         </InViewSlideFade>
         <InViewSlideFade>

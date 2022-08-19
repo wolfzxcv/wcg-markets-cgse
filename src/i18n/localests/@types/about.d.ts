@@ -8,4 +8,8 @@ export type About = {
   steadyWinTheFuture: string;
   /** WCG has a solid foundation */
   WCGHasASolidFoundation: string;
+  /** Capital creates */
+  capitalCreates: string;
+  /** the future */
+  theFuture: string;
 };

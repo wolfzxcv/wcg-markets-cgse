@@ -1,4 +1,5 @@
 import AboutBanner from '@/components/About/AboutBanner';
+import CapitalCreatesTheFuture from '@/components/About/CapitalCreatesTheFuture';
 import Wrapper from '@/components/Base/Wrapper';
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -8,6 +9,7 @@ const about: React.FC<{}> = () => {
   return (
     <Wrapper>
       <AboutBanner />
+      <CapitalCreatesTheFuture />
     </Wrapper>
   );
 };
