@@ -1,9 +1,13 @@
 import { FOOTER_FONT_COLOR, LIVE_CHAT_BORDER } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
+import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
+import InViewSlideFade from '../Common/InViewSlideFade';
 
 const OurAdvantage: React.FC<{}> = () => {
+  const { t } = useTranslation('common');
+
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
@@ -17,82 +21,86 @@ const OurAdvantage: React.FC<{}> = () => {
         flexDir="column"
         my={{ base: 10, md: '150px' }}
       >
-        <Flex justify="center">
-          {/* title */}
-          <Flex flexDir="column" mb={{ base: 10, md: 20 }}>
-            {isChinese && (
-              <Flex>
-                <Text
-                  fontSize={{
-                    base: '36px',
-                    md: '48px'
-                  }}
-                  fontWeight={300}
-                  color={FOOTER_FONT_COLOR}
-                >
-                  我們的
-                </Text>
-                <Text
-                  fontSize={{
-                    base: '36px',
-                    md: '48px'
-                  }}
-                  fontWeight={700}
-                >
-                  優勢
-                </Text>
-              </Flex>
-            )}
-            {/* English title */}
-            <Box
-              fontSize={{
-                base: '36px',
-                md: '48px'
-              }}
-              color={LIVE_CHAT_BORDER}
-            >
-              OUR ADVANTAGE
-            </Box>
+        <InViewSlideFade>
+          <Flex justify="center">
+            {/* title */}
+            <Flex flexDir="column" mb={{ base: 10, md: 20 }}>
+              {isChinese && (
+                <Flex>
+                  <Text
+                    fontSize={{
+                      base: '36px',
+                      md: '48px'
+                    }}
+                    fontWeight={300}
+                    color={FOOTER_FONT_COLOR}
+                  >
+                    {t('our')}
+                  </Text>
+                  <Text
+                    fontSize={{
+                      base: '36px',
+                      md: '48px'
+                    }}
+                    fontWeight={700}
+                  >
+                    {t('advantage')}
+                  </Text>
+                </Flex>
+              )}
+              {/* English title */}
+              <Box
+                fontSize={{
+                  base: '30px',
+                  md: '48px'
+                }}
+                color={LIVE_CHAT_BORDER}
+              >
+                OUR ADVANTAGE
+              </Box>
+            </Flex>
           </Flex>
-        </Flex>
-        <Flex wrap="wrap" justify="center">
-          {/* Items */}
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_01.png"
-            title="111"
-            text="222"
-          />
+        </InViewSlideFade>
+        <InViewSlideFade>
+          <Flex wrap="wrap" justify="center">
+            {/* Items */}
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_01.png"
+              title={t('HongKongGoldAndSilverExchange')}
+              text={t('clerk012')}
+            />
 
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_02.png"
-            title="111"
-            text="222"
-          />
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_02.png"
+              title={t('financialRiskControlExperienceTeam')}
+              text={t('moreThanTenYearsOfExperience')}
+            />
 
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_03.png"
-            title="111"
-            text="222"
-          />
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_03.png"
+              title={t('fasterTechnologySystem')}
+              text={t('tradingOrdersAreFilledImmediately')}
+            />
 
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_04.png"
-            title="111"
-            text="222"
-          />
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_04.png"
+              title={t('hoursDepositAndWithdrawal')}
+              text={t('minutesForCapitalInjection')}
+            />
 
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_05.png"
-            title="111"
-            text="222"
-          />
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_05.png"
+              title={t('yearRoundProfessionalCustomerService')}
+              text={t('hoursOnlineInstantService')}
+            />
 
-          <AdvantageItem
-            imageSrc="../assets/images/advantage_06.png"
-            title="111"
-            text="222"
-          />
-        </Flex>
+            <AdvantageItem
+              imageSrc="../assets/images/advantage_06.png"
+              title={t('systemEnvironmentNeutralAndTransparent')}
+              text={t('giveYouATrustedPlatform')}
+            />
+          </Flex>
+        </InViewSlideFade>
       </Flex>
     </Flex>
   );
@@ -109,16 +117,29 @@ const AdvantageItem: React.FC<AdvantageItemProps> = ({
   title,
   text
 }: AdvantageItemProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+
   return (
     <Flex width={{ base: '90%', md: '45%' }} my={{ base: 3, md: 5 }}>
       <Flex width="20%" mr={10}>
         <Image src={imageSrc} alt="image" />
       </Flex>
-      <Flex flexDir="column" justify="center">
-        <Box fontSize="24px" fontWeight={600}>
+      <Flex width="80%" flexDir="column" justify="center">
+        <Box
+          fontSize={{
+            base: isChinese ? '20px' : '14px',
+            md: isChinese ? '24px' : '16px'
+          }}
+          fontWeight={600}
+        >
           {title}
         </Box>
-        <Box fontSize="14px">{text}</Box>
+        <Box fontSize={{ base: isChinese ? '14px' : '10px', md: '14px' }}>
+          {text}
+        </Box>
       </Flex>
     </Flex>
   );

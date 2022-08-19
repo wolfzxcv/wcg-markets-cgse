@@ -95,7 +95,7 @@ const HomeBanner: React.FC<{}> = () => {
           <Flex>
             <Image
               src="../assets/images/home_banner_phone.png"
-              alt="live_chat"
+              alt="home_banner_phone"
             />
           </Flex>
         </InViewSlideFade>
