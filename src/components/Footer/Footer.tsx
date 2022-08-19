@@ -62,7 +62,7 @@ const Footer: React.FC<{}> = () => {
       </Flex>
 
       <Flex
-        width="80vw"
+        width={{ base: '100%', md: '80vw' }}
         maxW="1100px"
         wrap="wrap"
         flexDir="column"
@@ -71,8 +71,18 @@ const Footer: React.FC<{}> = () => {
         borderColor={FOOTER_FONT_COLOR}
         mt={5}
         pt={5}
+        px={{ base: 5, md: 0 }}
+        align={{ base: 'center', md: 'flex-start' }}
       >
-        <FooterItemBase text={t('copyright')} />
+        <Flex
+          flexDir={{ base: 'column', md: 'row' }}
+          align={{ base: 'center', md: 'flex-start' }}
+        >
+          <FooterItemBase text="Copyright 2022 All Rights Reserved" />
+          <FooterItemBase text={`WCG Markets (HK) Limited ${t('copyright')}`} />
+        </Flex>
+
+        <br />
         <FooterItemBase text={t('riskWarning')} />
       </Flex>
     </Flex>

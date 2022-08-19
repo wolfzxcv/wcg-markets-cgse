@@ -4,7 +4,7 @@ import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-const clause: React.FC<{}> = () => {
+const privacyPolicy: React.FC<{}> = () => {
   const { t } = useTranslation('conditions');
   return (
     <Wrapper>
@@ -65,4 +65,4 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   }
 });
 
-export default clause;
+export default privacyPolicy;
