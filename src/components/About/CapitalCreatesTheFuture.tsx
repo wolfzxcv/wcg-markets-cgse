@@ -1,10 +1,17 @@
 import { DARK_GRAY } from '@/assets/styleConfig';
+import { Locales } from '@/i18n/config';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import InViewSlideFade from '../Common/InViewSlideFade';
 
 const CapitalCreatesTheFuture: React.FC<{}> = () => {
   const { t } = useTranslation('about');
+
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
 
   return (
     <InViewSlideFade>
@@ -23,6 +30,7 @@ const CapitalCreatesTheFuture: React.FC<{}> = () => {
                 md: '48px'
               }}
               color={DARK_GRAY}
+              mr={isChinese ? 0 : 3}
             >
               {t('capitalCreates')}
             </Text>
