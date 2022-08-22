@@ -26,17 +26,17 @@ const CapitalCreatesTheFuture: React.FC<{}> = () => {
           <Flex>
             <Text
               fontSize={{
-                base: '36px',
+                base: '28px',
                 md: '48px'
               }}
               color={DARK_GRAY}
-              mr={isChinese ? 0 : 3}
+              mr={isChinese ? 0 : 2}
             >
               {t('capitalCreates')}
             </Text>
             <Text
               fontSize={{
-                base: '36px',
+                base: '28px',
                 md: '48px'
               }}
             >

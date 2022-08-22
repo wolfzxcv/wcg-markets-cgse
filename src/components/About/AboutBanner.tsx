@@ -61,8 +61,8 @@ const AboutBanner: React.FC<{}> = () => {
         <InViewSlideFade>
           <Image
             width={{ base: 'auto', md: '80%' }}
-            position={{ base: 'inherit', md: 'relative' }}
-            top={{ base: '-100px', md: '130px' }}
+            position="relative"
+            top={{ base: '-50px', md: '130px' }}
             src="../assets/images/about_banner_phone.png"
             alt="about_banner_phone"
           />

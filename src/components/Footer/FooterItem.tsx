@@ -72,7 +72,7 @@ export const FooterItemBase: React.FC<FooterItemTitleProps> = ({
   text
 }: FooterItemTitleProps) => (
   <Box
-    fontSize={{ base: '12px', md: '14px' }}
+    fontSize={{ base: '10px', md: '14px' }}
     pb={1}
     pr={1}
     color={FOOTER_FONT_COLOR}
