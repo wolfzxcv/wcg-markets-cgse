@@ -123,29 +123,31 @@ const riskDisclosure: React.FC<{}> = () => {
           <RiskDisclosureItem
             title=""
             content={[
-              //1
+              //
               `${t('thisAgreement')}`,
-              //2
-              `${t('aboutOpening')}${t('theCustomer')}`,
+              //
+              `${t('aboutOpening')}${t('theCustomerConfirms')}`,
+              //1
               `${t('tradingIsOnly')}`,
-              //3
+              //2
               `${t('bushinessDoes')}${t('manyElectronic')}`,
-              //4
+              //3
               `${t('inTheOTC')}${t('circumstancesThat')}`,
+              //4
+              `${t('ifTheCustomerEngages')}${t('systemFailures')} `,
               //5
-              `${t('ifTheCustomerEngages')}${t('systemFailures')}`,
-              //6
-              `${t('theCustomerConfirms')}${t('forAllSales')}${t(
+              `${t('thatThePurchase')}${t('forAllSales')}${t(
                 'theTimeAndPlace'
-              )}${t('theTimeAndPlace')}`,
+              )}`,
+              //6
               `${t('theCompany')}${t('inAddition')}`,
-              // 7
+              //7
               `${t('theCompanyMargin')}${t('otherwiseThePosition')}`,
-              // 8
+              //8
               `${t('ifAnyCustomer')}`,
               //9
               `${t('ifTheCustomerEntrusts')} 
-              ${t('theCompanyDoesNot')}${t('ifTheCustomerDoes')}              `,
+              ${t('theCompanyDoesNot')}${t('ifTheCustomerDoes')}`,
               //10
               `${t('customersShould')}${t('transactionsMade')}`,
               //11

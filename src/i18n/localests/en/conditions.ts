@@ -173,7 +173,7 @@ export const conditions: Conditions = {
     '4. If the customer engages in trading in any electronic market, the customer will face risks associated with the electronic trading system, including failure of hardware or software.',
   systemFailures:
     "System failures may cause customers' orders to be difficult to execute according to their instructions or not to be executed at all.",
-  theCustomer:
+  thatThePurchase:
     "5. The customer confirms that the purchase or sale of precious metals includes delivery, and each spot transaction is automatically credited to the customer's account.",
   forAllSales:
     'For all sales and purchase contracts that require physical delivery, the customer must notify the company in writing and get the company to confirm that the recipient is valid when placing the order.',

@@ -13,22 +13,31 @@ const disclaimer: React.FC<{}> = () => {
         <Heading size="lg">{t('disclaimer')} </Heading>
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
         <Stack spacing={3} w={'60vw'} fontSize={'16px'}>
+          {/* A */}
           <Text>
             {t('theInformation')}
             {t('theCompanyShall')}
           </Text>
+          {/* B */}
           <Text>
             {t('thisWebsiteIs')}
             {t('itIsTheResponsibility')}
           </Text>
+          {/* C */}
           <Text>{t('thisWebsiteShall')}</Text>
+          {/* D */}
           <Text>
             {t('byUsingThis')}
             {t('pleaseCheck')}
           </Text>
+          {/* E */}
           <Text>{t('theOperation')}</Text>
-          <Text>{t('preciousMetal')}</Text>
-          <Text>{t('pleaseRefer')}</Text>
+          {/* F */}
+          <Text>
+            {t('preciousMetal')}
+            {t('pleaseRefer')}
+          </Text>
+          {/* G */}
           <Text>{t('theContent')}</Text>
         </Stack>
       </Flex>
