@@ -16,12 +16,14 @@ const privacyPolicy: React.FC<{}> = () => {
         </Stack>
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
         <Stack spacing={3} w={'60vw'}>
+          {/* Header */}
           <Text>
             {t('theCompanyPersonal')}
             {t('whenTheCompany')}
             {t('theCompanyWill')}
             {t('toThisEnd')}
           </Text>
+          {/* A */}
           <Text> {t('allPersonalData')}</Text>
           <Text> {t('theCompanyIs')}</Text>
           <Text> {t('theCompanyWillStore')}</Text>
@@ -31,12 +33,14 @@ const privacyPolicy: React.FC<{}> = () => {
           <Text>
             {t('theCompanyMaySet')} {t('theCompanyAndIts')}
           </Text>
+          {/* H */}
           <Text>
-            {t('whenTheCustomer')}
-            {t('theseCompanies')}
+            {t('whenTheCustomer')} {t('theseCompanies')}
+            {/* -- */}
+            {t('theCompanyWillDo')}
+            {t('anyoneWhoBrowses')}
           </Text>
-          <Text> {t('theCompanyWillDo')}</Text>
-          <Text> {t('anyoneWhoBrowses')}</Text>
+          {/*  */}
           <Text> {t('theCompanyGroup')}</Text>
           <Text> {t('mayBeUse')}</Text>
           {/* &nbsp; &nbsp;*/}

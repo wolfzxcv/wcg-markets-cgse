@@ -141,7 +141,7 @@ export const conditions: Conditions = {
   thisAgreement: '本协议具有法律约束力，请仔细审阅。',
   aboutOpening:
     '有关在本公司开设账户通过贵金属场外OTC市场从事投机及或购买、及或卖出现货贵金属（以下简称「OTCGOLD」）',
-  theCustomer:
+  theCustomerConfirms:
     '，客户确认已了解下述有关杠杆式OTCGOLD交易的因素，以及提供给客户的风险披露声明。',
   tradingIsOnly:
     '1.OTCGOLD交易仅适合专业机构或投资经验丰富的人士，其财政状况也许可以承受远过保证金或存款金价值的损失。',
@@ -157,7 +157,7 @@ export const conditions: Conditions = {
     '4.如果客户在任何电子市场从事交易，客户将面临与该电子交易系统相关的风险，包括硬件或软件的故障。',
   systemFailures:
     '系统故障可能造成客户的订单难以按照其指示执行或根本不能执行。',
-  theCustomerConfirms:
+  thatThePurchase:
     '5.客户确认购买或卖出贵金属包括进行交割，每次现货交易均自动进账到客户的账户。',
   forAllSales:
     '所有需要作实货交收的买卖合约，客户必须在发出买卖指示时，同时以书面通知本公司及得到本公司确定接受方为有效。',

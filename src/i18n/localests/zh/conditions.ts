@@ -141,7 +141,7 @@ export const conditions: Conditions = {
   thisAgreement: '本協議具有法律約束力，請仔細審閱。',
   aboutOpening:
     '有關在本公司開設賬戶通過貴金屬場外OTC市場從事投機及或購買、及或賣出現貨貴金屬（以下簡稱「OTCGOLD」）',
-  theCustomer:
+  theCustomerConfirms:
     '，客戶確認已了解下述有關杠桿式OTCGOLD交易的因素，以及提供給客戶的風險披露聲明。',
   tradingIsOnly:
     '1.OTCGOLD交易僅適合專業機構或投資經驗豐富的人士，其財政狀況也許可以承受遠過保證金或存款金價值的損失。',
@@ -157,7 +157,7 @@ export const conditions: Conditions = {
     '4.如果客戶在任何電子市場從事交易，客戶將面臨與該電子交易系統相關的風險，包括硬件或軟件的故障。',
   systemFailures:
     '系統故障可能造成客戶的訂單難以按照其指示執行或根本不能執行。',
-  theCustomerConfirms:
+  thatThePurchase:
     '5.客戶確認購買或賣出貴金屬包括進行交割，每次現貨交易均自動進賬到客戶的賬戶。',
   forAllSales:
     '所有需要作實貨交收的買賣合約，客戶必須在發出買賣指示時，同時以書面通知本公司及得到本公司確定接受方為有效。',
