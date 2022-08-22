@@ -96,7 +96,7 @@ export type Conditions = {
   circumstancesThat: string;
   ifTheCustomerEngages: string;
   systemFailures: string;
-  theCustomer: string;
+  thatThePurchase: string;
   forAllSales: string;
   theTimeAndPlace: string;
   theCompany: string;
