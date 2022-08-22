@@ -1,6 +1,7 @@
 import { links } from '@/assets/links';
 import {
   COMMON_BG,
+  COMMON_FONT_COLOR,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
@@ -30,7 +31,7 @@ const HomeBanner: React.FC<{}> = () => {
       bgPosition="top center"
       bgSize={{ base: 'cover', md: 'cover' }}
       bgRepeat="no-repeat"
-      color="white"
+      color={COMMON_FONT_COLOR}
       align="center"
       justify="center"
     >

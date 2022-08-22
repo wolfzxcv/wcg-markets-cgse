@@ -10,6 +10,8 @@ export const LIGHT_GRAY = '#cccccc';
 
 export const DARK_GRAY = '#767676';
 
+export const SMART_CHOICE_BG = '#898989';
+
 export const HOVER_PARAMS = {
   cursor: 'pointer',
   opacity: 0.6,

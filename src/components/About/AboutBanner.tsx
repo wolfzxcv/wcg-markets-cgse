@@ -1,4 +1,4 @@
-import { COMMON_BG } from '@/assets/styleConfig';
+import { COMMON_BG, COMMON_FONT_COLOR } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -24,7 +24,7 @@ const AboutBanner: React.FC<{}> = () => {
       bgPosition={{ base: 'bottom center', md: 'top center' }}
       bgSize="cover"
       bgRepeat="no-repeat"
-      color="white"
+      color={COMMON_FONT_COLOR}
       justify="center"
     >
       <Flex
