@@ -2,6 +2,7 @@ import Wrapper from '@/components/Base/Wrapper';
 import HomeBanner from '@/components/Home/HomeBanner';
 import OurAdvantage from '@/components/Home/OurAdvantage';
 import SoftwareDownload from '@/components/Home/SoftwareDownload';
+import TradingRules from '@/components/Home/TradingRules';
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
@@ -13,6 +14,9 @@ const Index: React.FC<{}> = () => {
 
       {/* Our Advantage */}
       <OurAdvantage />
+
+      {/* Trading Rules */}
+      <TradingRules />
 
       {/* Software Download */}
       <SoftwareDownload />

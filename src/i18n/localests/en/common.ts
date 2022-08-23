@@ -23,6 +23,8 @@ export const common: Common = {
   systemEnvironmentNeutralAndTransparent:
     'System environment neutral and transparent',
   giveYouATrustedPlatform: 'Give you a trusted platform',
+  trading: 'TRADING',
+  rules: 'RULES',
   software: 'SOFTWARE',
   download: 'DOWNLOAD',
   IOSDownload: 'MT4 IOS version',

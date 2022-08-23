@@ -61,7 +61,10 @@ const LicenseIntroduction: React.FC<{}> = () => {
               />
             </Flex>
 
-            <Box width="60%" textAlign={{ base: 'center', md: 'left' }}>
+            <Box
+              width={{ base: '100%', md: '60%' }}
+              textAlign={{ base: 'center', md: 'left' }}
+            >
               {t('WCGIsAuthorized')}
             </Box>
           </Flex>

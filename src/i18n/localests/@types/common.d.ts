@@ -38,6 +38,12 @@ export type Common = {
   systemEnvironmentNeutralAndTransparent: string;
   /** Give you a trusted platform */
   giveYouATrustedPlatform: string;
+  /** TRADING RULES starts */
+  /** Trading */
+  trading: string;
+  /** Rules */
+  rules: string;
+  /** TRADING RULES ends */
   /** software */
   software: string;
   /** download */
