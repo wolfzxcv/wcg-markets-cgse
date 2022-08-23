@@ -25,13 +25,13 @@ const SmartChoice: React.FC<{}> = () => {
           flexDir="column"
           align="center"
           mb={{ base: 10, md: 20 }}
-          width={{ base: '80vw', md: '40vw' }}
+          width={{ base: '90vw', md: '40vw' }}
           color={COMMON_FONT_COLOR}
         >
-          <Flex>
+          <Flex wrap="wrap" justify="center" fontWeight={700}>
             <Text
               fontSize={{
-                base: isChinese ? '24px' : '18px',
+                base: isChinese ? '24px' : '22px',
                 md: '40px'
               }}
               mr={isChinese ? 0 : 2}
@@ -41,7 +41,7 @@ const SmartChoice: React.FC<{}> = () => {
             <Text
               color={LIVE_CHAT_BORDER}
               fontSize={{
-                base: isChinese ? '24px' : '18px',
+                base: isChinese ? '24px' : '22px',
                 md: '40px'
               }}
             >

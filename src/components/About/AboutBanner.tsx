@@ -60,6 +60,7 @@ const AboutBanner: React.FC<{}> = () => {
         </InViewSlideFade>
         <InViewSlideFade>
           <Image
+            pt={{ base: 20, md: 0 }}
             width={{ base: 'auto', md: '80%' }}
             position="relative"
             top={{ base: '-50px', md: '130px' }}

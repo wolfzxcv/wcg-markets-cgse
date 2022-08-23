@@ -15,7 +15,7 @@ const AwardWinningPlatform: React.FC<{}> = () => {
 
   return (
     <Flex
-      minH={{ base: '700px', md: '800px' }}
+      minH={{ base: '600px', md: '800px' }}
       bg={COMMON_BG}
       bgImage="../assets/images/award_winning_platform_bg.png"
       bgPosition={{ base: 'bottom center', md: 'top center' }}
@@ -37,7 +37,7 @@ const AwardWinningPlatform: React.FC<{}> = () => {
               justify={{ base: 'auto', md: 'center' }}
               height="100%"
               mr={{ base: 0, md: 10 }}
-              py={20}
+              pt="150px"
             >
               <Box>{t('awardWinningPlatform')}</Box>
 

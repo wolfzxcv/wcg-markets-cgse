@@ -15,7 +15,7 @@ const CapitalCreatesTheFuture: React.FC<{}> = () => {
 
   return (
     <InViewSlideFade>
-      <Flex justify="center" my={{ base: 10, md: '150px' }}>
+      <Flex justify="center" my="150px">
         {/* title */}
         <Flex
           flexDir="column"

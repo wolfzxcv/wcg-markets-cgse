@@ -30,4 +30,22 @@ export type About = {
   smartChoice: string;
   /** WCG keeps making progress */
   WCGKeepsMakingProgress: string;
+  /** Years of credibility */
+  yearsOfCredibility: string;
+  /** Adhering to the original intention */
+  adheringToTheOriginalIntention: string;
+  /** Rich resources */
+  richResources: string;
+  /** We will do our best */
+  weWillDoOurBest: string;
+  /** Quality service */
+  qualityService: string;
+  /** Our sales team */
+  ourSalesTeam: string;
+  /** License */
+  license: string;
+  /** Introduction */
+  introduction: string;
+  /** WCG is authorized  */
+  WCGIsAuthorized: string;
 };
