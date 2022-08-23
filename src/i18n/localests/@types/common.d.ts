@@ -14,28 +14,28 @@ export type Common = {
   our: string;
   /** Advantage */
   advantage: string;
-  /** Hong Kong Gold and Silver Exchange */
-  HongKongGoldAndSilverExchange: string;
-  /** Clerk 012 */
-  clerk012: string;
-  /** Financial risk control experience team */
-  financialRiskControlExperienceTeam: string;
+  /** The Chinese Gold & Silver Exchange Society */
+  TheChineseGoldAndSilverExchangeSociety: string;
+  /** No. 012 */
+  No012: string;
+  /** Experienced risk control team */
+  experiencedRiskControlTeam: string;
   /** More than ten years of experience */
   moreThanTenYearsOfExperience: string;
-  /** Faster technology system */
-  fasterTechnologySystem: string;
-  /** Trading orders are filled immediately */
-  tradingOrdersAreFilledImmediately: string;
-  /** 24 hours deposit and withdrawal */
-  hoursDepositAndWithdrawal: string;
-  /** 10 minutes for capital injection */
-  minutesForCapitalInjection: string;
-  /** Year-round professional customer service */
-  yearRoundProfessionalCustomerService: string;
-  /** 24 hours online instant service */
-  hoursOnlineInstantService: string;
-  /** System environment neutral and transparent */
-  systemEnvironmentNeutralAndTransparent: string;
+  /** Trade faster with smart technology */
+  tradeFasterWithSmartTechnology: string;
+  /** Superior trade executions  */
+  superiorTradeExecutions: string;
+  /** Convenient deposit & withdrawals */
+  convenientDepositAndWithdrawals: string;
+  /** Top up your account */
+  topUpYourAccount: string;
+  /** professional customer service */
+  professionalCustomerService: string;
+  /** Instant online */
+  instantOnline: string;
+  /** Transparency of the trading environment */
+  transparencyOfTheTradingEnvironment: string;
   /** Give you a trusted platform */
   giveYouATrustedPlatform: string;
   /** TRADING RULES starts */
@@ -54,8 +54,8 @@ export type Common = {
   AndroidDownload: string;
   /** Windows download */
   WindowsDownload: string;
-  /** Drawing tools and technical analysis guidance */
-  drawingToolsAndTechnicalAnalysisGuidance: string;
+  /** Customizable interface including technical analysis */
+  customizableInterface: string;
   /** Open Account */
   openAccount: string;
 };

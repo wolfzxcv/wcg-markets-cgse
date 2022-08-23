@@ -107,7 +107,7 @@ const SoftwareDownload: React.FC<{}> = () => {
                 href={links.mt4App}
               />
 
-              <Box>{t('drawingToolsAndTechnicalAnalysisGuidance')}</Box>
+              <Box>{t('customizableInterface')}</Box>
 
               <Flex justify={{ base: 'center', md: 'flex-start' }}>
                 <Link _hover={HOVER_PARAMS} href={links.register} isExternal>

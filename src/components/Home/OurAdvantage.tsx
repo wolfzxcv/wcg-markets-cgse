@@ -66,37 +66,37 @@ const OurAdvantage: React.FC<{}> = () => {
             {/* Items */}
             <AdvantageItem
               imageSrc="../assets/images/advantage_01.png"
-              title={t('HongKongGoldAndSilverExchange')}
-              text={t('clerk012')}
+              title={t('TheChineseGoldAndSilverExchangeSociety')}
+              text={t('No012')}
             />
 
             <AdvantageItem
               imageSrc="../assets/images/advantage_02.png"
-              title={t('financialRiskControlExperienceTeam')}
+              title={t('experiencedRiskControlTeam')}
               text={t('moreThanTenYearsOfExperience')}
             />
 
             <AdvantageItem
               imageSrc="../assets/images/advantage_03.png"
-              title={t('fasterTechnologySystem')}
-              text={t('tradingOrdersAreFilledImmediately')}
+              title={t('tradeFasterWithSmartTechnology')}
+              text={t('superiorTradeExecutions')}
             />
 
             <AdvantageItem
               imageSrc="../assets/images/advantage_04.png"
-              title={t('hoursDepositAndWithdrawal')}
-              text={t('minutesForCapitalInjection')}
+              title={t('convenientDepositAndWithdrawals')}
+              text={t('topUpYourAccount')}
             />
 
             <AdvantageItem
               imageSrc="../assets/images/advantage_05.png"
-              title={t('yearRoundProfessionalCustomerService')}
-              text={t('hoursOnlineInstantService')}
+              title={t('professionalCustomerService')}
+              text={t('instantOnline')}
             />
 
             <AdvantageItem
               imageSrc="../assets/images/advantage_06.png"
-              title={t('systemEnvironmentNeutralAndTransparent')}
+              title={t('transparencyOfTheTradingEnvironment')}
               text={t('giveYouATrustedPlatform')}
             />
           </Flex>
