@@ -26,7 +26,7 @@ const CapitalCreatesTheFuture: React.FC<{}> = () => {
           <Flex>
             <Text
               fontSize={{
-                base: '28px',
+                base: '25px',
                 md: '40px'
               }}
               color={DARK_GRAY}
@@ -36,7 +36,7 @@ const CapitalCreatesTheFuture: React.FC<{}> = () => {
             </Text>
             <Text
               fontSize={{
-                base: '28px',
+                base: '25px',
                 md: '40px'
               }}
             >
