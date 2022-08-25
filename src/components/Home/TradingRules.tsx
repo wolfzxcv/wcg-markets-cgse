@@ -330,7 +330,7 @@ const TradingRules: React.FC<{}> = () => {
           </InViewSlideFade>
 
           <InViewSlideFade>
-            <Flex justify="center">
+            <Flex justify="center" fontSize={{ base: '10px', md: '16px' }}>
               <Flex
                 flexDir="column"
                 fontWeight={FONT_WEIGHT}
