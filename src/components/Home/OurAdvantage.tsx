@@ -1,4 +1,8 @@
-import { FOOTER_FONT_COLOR, LIVE_CHAT_BORDER } from '@/assets/styleConfig';
+import {
+  FONT_WEIGHT,
+  FOOTER_FONT_COLOR,
+  LIVE_CHAT_BORDER
+} from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -32,7 +36,7 @@ const OurAdvantage: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={300}
+                    fontWeight={FONT_WEIGHT}
                     color={FOOTER_FONT_COLOR}
                   >
                     {t('our')}
@@ -42,7 +46,7 @@ const OurAdvantage: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={700}
+                    fontWeight={FONT_WEIGHT}
                   >
                     {t('advantage')}
                   </Text>
@@ -133,7 +137,7 @@ const AdvantageItem: React.FC<AdvantageItemProps> = ({
             base: isChinese ? '20px' : '14px',
             md: isChinese ? '24px' : '16px'
           }}
-          fontWeight={600}
+          fontWeight={FONT_WEIGHT}
         >
           {title}
         </Box>

@@ -1,4 +1,8 @@
-import { FOOTER_FONT_COLOR, HOVER_PARAMS } from '@/assets/styleConfig';
+import {
+  FONT_WEIGHT,
+  FOOTER_FONT_COLOR,
+  HOVER_PARAMS
+} from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Link } from '@chakra-ui/react';
 import NextLink from 'next/link';
@@ -27,13 +31,17 @@ export const FooterItemTitle: React.FC<FooterItemTitleProps> = ({
         _hover={HOVER_PARAMS}
         fontSize={{ base: '14px', md: '20px' }}
         pb={5}
-        fontWeight={700}
+        fontWeight={FONT_WEIGHT}
       >
         {text}
       </Box>
     </NextLink>
   ) : (
-    <Box fontSize={{ base: '14px', md: '20px' }} pb={5} fontWeight={700}>
+    <Box
+      fontSize={{ base: '14px', md: '20px' }}
+      pb={5}
+      fontWeight={FONT_WEIGHT}
+    >
       {text}
     </Box>
   );

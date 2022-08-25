@@ -63,7 +63,7 @@ export const common: Common = {
   orderTimeLimit: '指令时效',
   validUntilTheClose: '有效至本公司该周最后交易日之收市前 (GTW)',
   limitStopLossAndTakeProfit: '限价/止蚀及止赚盘',
-  itNeedsToBeMoreThan: '需距离市价$2美元以外。',
+  itNeedsToBeMoreThan: '需距离市价 $number美元以外。',
   beforeMajorDataIsReleased:
     '重大数据公布前，订单距离限制可能会调整，详情请留意官方网站上的通告。',
   depositAndWithdrawal: '出入金汇率',

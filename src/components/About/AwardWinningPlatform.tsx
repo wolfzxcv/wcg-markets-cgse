@@ -1,4 +1,8 @@
-import { COMMON_BG, COMMON_FONT_COLOR } from '@/assets/styleConfig';
+import {
+  COMMON_BG,
+  COMMON_FONT_COLOR,
+  FONT_WEIGHT
+} from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Stack } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -31,7 +35,7 @@ const AwardWinningPlatform: React.FC<{}> = () => {
             <Stack
               width={{ base: '80vw', md: isChinese ? '300px' : '500px' }}
               fontSize="20px"
-              fontWeight={600}
+              fontWeight={FONT_WEIGHT}
               spacing={5}
               align={{ base: 'center', md: 'flex-start' }}
               justify={{ base: 'auto', md: 'center' }}

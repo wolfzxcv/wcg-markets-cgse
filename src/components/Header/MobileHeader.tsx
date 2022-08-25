@@ -1,4 +1,8 @@
-import { COMMON_BG, COMMON_FONT_COLOR } from '@/assets/styleConfig';
+import {
+  COMMON_BG,
+  COMMON_FONT_COLOR,
+  FONT_WEIGHT
+} from '@/assets/styleConfig';
 import { Flex, useDisclosure } from '@chakra-ui/react';
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
@@ -29,7 +33,7 @@ const MobileHeader: React.FC<{}> = () => {
         height="60px"
         justify="space-between"
         align="center"
-        fontWeight="700"
+        fontWeight={FONT_WEIGHT}
       >
         <Flex onClick={onOpenMobileLangSelector} align="center" fontSize="26px">
           <ImEarth />

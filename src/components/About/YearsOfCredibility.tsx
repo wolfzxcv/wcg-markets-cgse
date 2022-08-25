@@ -1,4 +1,8 @@
-import { COMMON_FONT_COLOR, SMART_CHOICE_BG } from '@/assets/styleConfig';
+import {
+  COMMON_FONT_COLOR,
+  FONT_WEIGHT,
+  SMART_CHOICE_BG
+} from '@/assets/styleConfig';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import InViewSlideFade from '../Common/InViewSlideFade';
@@ -53,7 +57,7 @@ const YearsOfCredibilityItem: React.FC<YearsOfCredibilityItemProps> = ({
             base: '20px',
             md: '24px'
           }}
-          fontWeight={600}
+          fontWeight={FONT_WEIGHT}
           mt={10}
           mb={3}
         >

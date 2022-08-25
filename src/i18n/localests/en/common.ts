@@ -69,7 +69,8 @@ export const common: Common = {
   validUntilTheClose:
     'Valid until the close of the company on the last trading day of the week (GTW)',
   limitStopLossAndTakeProfit: 'Limit/Stop Loss and Take Profit',
-  itNeedsToBeMoreThan: 'It needs to be more than $2 from the market price.',
+  itNeedsToBeMoreThan:
+    'It needs to be more than $number from the market price.',
   beforeMajorDataIsReleased:
     'Before major data is released, the order distance limit may be adjusted. For details, please pay attention to the announcement on the official website.',
   depositAndWithdrawal: 'Deposit and withdrawal exchange rate',

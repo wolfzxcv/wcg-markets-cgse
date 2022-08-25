@@ -1,4 +1,5 @@
 import {
+  FONT_WEIGHT,
   FOOTER_FONT_COLOR,
   LIGHT_GRAY,
   LIVE_CHAT_BORDER
@@ -17,6 +18,8 @@ const TradingRules: React.FC<{}> = () => {
 
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
 
+  const COLUMN_PADDING = 3;
+
   return (
     <Flex justify="center">
       <Flex
@@ -25,8 +28,8 @@ const TradingRules: React.FC<{}> = () => {
         flexDir="column"
         mb={{ base: 10, md: '100px' }}
       >
-        <InViewSlideFade>
-          <Flex flexDir="column">
+        <Flex flexDir="column">
+          <InViewSlideFade>
             {/* title */}
             <Flex flexDir="column" align="center" mb={{ base: 10, md: 20 }}>
               {isChinese && (
@@ -36,7 +39,7 @@ const TradingRules: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={300}
+                    fontWeight={FONT_WEIGHT}
                     color={FOOTER_FONT_COLOR}
                   >
                     {t('trading')}
@@ -46,7 +49,7 @@ const TradingRules: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={700}
+                    fontWeight={FONT_WEIGHT}
                   >
                     {t('rules')}
                   </Text>
@@ -63,7 +66,8 @@ const TradingRules: React.FC<{}> = () => {
                 TRADING RULES
               </Box>
             </Flex>
-
+          </InViewSlideFade>
+          <InViewSlideFade>
             {/* Table starts */}
             <Flex flexDir="column">
               <Flex
@@ -124,7 +128,7 @@ const TradingRules: React.FC<{}> = () => {
               <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
                 <TableColumn text={t('bidAskSpread')} />
 
-                <Flex flexDir="column" width="30%">
+                <Flex flexDir="column" width="35%" py={COLUMN_PADDING}>
                   <TableColumn
                     wideP={100}
                     text={`${t('premium')} 0.3 (${t('fixed')})`}
@@ -142,7 +146,7 @@ const TradingRules: React.FC<{}> = () => {
                   />
                 </Flex>
 
-                <Flex flexDir="column" width="30%">
+                <Flex flexDir="column" width="30%" py={COLUMN_PADDING}>
                   <TableColumn
                     wideP={100}
                     text={`${t('premium')} 0.02 (${t('fixed')})`}
@@ -177,10 +181,169 @@ const TradingRules: React.FC<{}> = () => {
                   )}`}
                 />
               </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('liquidationLevel')} />
+
+                <Flex flexDir="column" width="66%" py={COLUMN_PADDING}>
+                  <TableColumn
+                    wideP={100}
+                    text={t('ifTheMarginLevel')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('MetaTrader4WillAutomatically')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('whenThePriceFluctuatesGreatly')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('weekendHolidayMarket')} />
+
+                <TableColumn wideP={66} text={t('ifTheMarginIsLess')} />
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('marketInterest')} />
+
+                <Flex flexDir="column" width="66%" py={COLUMN_PADDING}>
+                  <TableColumn
+                    wideP={100}
+                    text={t('OneDayMarketPassingInterest')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('interestWillBeAdjusted')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('instructionCategory')} />
+
+                <TableColumn wideP={66} text={t('marketPrice')} />
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('orderTimeLimit')} />
+
+                <TableColumn wideP={66} text={t('validUntilTheClose')} />
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('limitStopLossAndTakeProfit')} />
+
+                <Flex
+                  flexDir="column"
+                  width="66%"
+                  justify="center"
+                  py={COLUMN_PADDING}
+                >
+                  <Flex>
+                    <TableColumn
+                      wideP={100}
+                      text={t('itNeedsToBeMoreThan').replace('number', '2')}
+                      removePadding
+                    />
+                    <TableColumn
+                      wideP={100}
+                      text={t('itNeedsToBeMoreThan').replace('number', '0.2')}
+                      removePadding
+                    />
+                  </Flex>
+                  <TableColumn
+                    wideP={100}
+                    text={t('beforeMajorDataIsReleased')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('depositAndWithdrawal')} />
+
+                <TableColumn wideP={66} text={t('USDToHKD')} />
+              </Flex>
+
+              {/* TIME  */}
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('tradingHours')} />
+
+                <Flex flexDir="column" width="66%" py={COLUMN_PADDING}>
+                  <TableColumn
+                    wideP={100}
+                    text={t('tradingHoursSummer')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('tradingHoursWinter')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('systemSettlement')} />
+
+                <Flex flexDir="column" width="66%" py={COLUMN_PADDING}>
+                  <TableColumn
+                    wideP={100}
+                    text={t('systemSettlementSummer')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('systemSettlementWinter')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
+
+              <Flex borderTop="1px" borderColor={LIGHT_GRAY}>
+                <TableColumn text={t('systemMaintenance')} />
+
+                <Flex flexDir="column" width="66%" py={COLUMN_PADDING}>
+                  <TableColumn
+                    wideP={100}
+                    text={t('systemMaintenanceSummer')}
+                    removePadding
+                  />
+                  <TableColumn
+                    wideP={100}
+                    text={t('systemMaintenanceWinter')}
+                    removePadding
+                  />
+                </Flex>
+              </Flex>
             </Flex>
             {/* Table ends */}
-          </Flex>
-        </InViewSlideFade>
+          </InViewSlideFade>
+
+          <InViewSlideFade>
+            <Flex justify="center">
+              <Flex
+                flexDir="column"
+                fontWeight={FONT_WEIGHT}
+                py={10}
+                width="90%"
+              >
+                <Box>{t('premiumAccount')}</Box>
+                <Box mt={2}>{t('superiorAccount')}</Box>
+                <Box mt={5}>{t('sinceThePriceFluctuations')}</Box>
+              </Flex>
+            </Flex>
+          </InViewSlideFade>
+        </Flex>
       </Flex>
     </Flex>
   );
@@ -203,9 +366,10 @@ const TableColumn: React.FC<TableColumnProps> = ({
     <Box
       width={percentage}
       textAlign="center"
-      py={removePadding ? 0 : 3}
-      fontWeight={700}
+      py={removePadding ? 0 : 5}
+      fontWeight={FONT_WEIGHT}
       fontSize={{ base: '10px', md: '16px' }}
+      height="inherit"
     >
       {text}
     </Box>

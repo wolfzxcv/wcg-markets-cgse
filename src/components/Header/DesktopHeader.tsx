@@ -1,6 +1,7 @@
 import {
   COMMON_BG,
   COMMON_FONT_COLOR,
+  FONT_WEIGHT,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
@@ -16,7 +17,12 @@ const DesktopHeader: React.FC<{}> = () => {
   const { t } = useTranslation('header');
 
   return (
-    <Flex align="center" justify="center" bg={COMMON_BG} fontWeight={700}>
+    <Flex
+      align="center"
+      justify="center"
+      bg={COMMON_BG}
+      fontWeight={FONT_WEIGHT}
+    >
       <Flex
         height="80px"
         justify="space-between"

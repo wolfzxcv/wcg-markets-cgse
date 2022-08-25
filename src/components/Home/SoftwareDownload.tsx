@@ -1,6 +1,7 @@
 import { links } from '@/assets/links';
 import {
   COMMON_FONT_COLOR,
+  FONT_WEIGHT,
   FOOTER_FONT_COLOR,
   HOVER_PARAMS,
   LIGHT_GRAY,
@@ -39,7 +40,7 @@ const SoftwareDownload: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={300}
+                    fontWeight={FONT_WEIGHT}
                     color={LIGHT_GRAY}
                   >
                     {t('software')}
@@ -49,7 +50,7 @@ const SoftwareDownload: React.FC<{}> = () => {
                       base: '36px',
                       md: '48px'
                     }}
-                    fontWeight={700}
+                    fontWeight={FONT_WEIGHT}
                     color={COMMON_FONT_COLOR}
                   >
                     {t('download')}
@@ -84,7 +85,7 @@ const SoftwareDownload: React.FC<{}> = () => {
             <Stack
               width={{ base: '80vw', md: isChinese ? '300px' : '500px' }}
               fontSize="20px"
-              fontWeight={600}
+              fontWeight={FONT_WEIGHT}
               color={COMMON_FONT_COLOR}
               spacing={5}
               my={10}

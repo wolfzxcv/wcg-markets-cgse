@@ -1,4 +1,4 @@
-import { COMMON_FONT_COLOR } from '@/assets/styleConfig';
+import { COMMON_FONT_COLOR, FONT_WEIGHT } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import {
   Accordion,
@@ -81,7 +81,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
               {date}
             </Box>
           )}
-          <Box flex="1" textAlign="left" fontWeight="600" py={2}>
+          <Box flex="1" textAlign="left" fontWeight={FONT_WEIGHT} py={2}>
             {title}
           </Box>
           <AccordionIcon />

@@ -1,5 +1,6 @@
 import {
   COMMON_FONT_COLOR,
+  FONT_WEIGHT,
   LIVE_CHAT_BORDER,
   SMART_CHOICE_BG
 } from '@/assets/styleConfig';
@@ -28,7 +29,7 @@ const SmartChoice: React.FC<{}> = () => {
           width={{ base: '90vw', md: '40vw' }}
           color={COMMON_FONT_COLOR}
         >
-          <Flex wrap="wrap" justify="center" fontWeight={700}>
+          <Flex wrap="wrap" justify="center" fontWeight={FONT_WEIGHT}>
             <Text
               fontSize={{
                 base: isChinese ? '24px' : '22px',

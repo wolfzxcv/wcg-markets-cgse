@@ -1,6 +1,7 @@
 import { links } from '@/assets/links';
 import {
   COMMON_FONT_COLOR,
+  FONT_WEIGHT,
   FOOTER_FONT_COLOR,
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
@@ -39,7 +40,7 @@ const StrictlyRegulated: React.FC<{}> = () => {
             <Stack
               width={{ base: '80vw', md: isChinese ? '300px' : '500px' }}
               fontSize="20px"
-              fontWeight={600}
+              fontWeight={FONT_WEIGHT}
               spacing={5}
               align={{ base: 'center', md: 'flex-start' }}
               justify={{ base: 'auto', md: 'center' }}

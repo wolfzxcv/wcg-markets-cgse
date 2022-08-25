@@ -1,3 +1,4 @@
+import { FONT_WEIGHT } from '@/assets/styleConfig';
 import Wrapper from '@/components/Base/Wrapper';
 import { Flex, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
@@ -170,7 +171,7 @@ const RiskDisclosureItem: React.FC<RiskDisclosureItemProps> = ({
   content
 }: RiskDisclosureItemProps) => (
   <>
-    <Text fontSize="22px" fontWeight={'bold'}>
+    <Text fontSize="22px" fontWeight={FONT_WEIGHT}>
       {title}
     </Text>
     {content.map((each) => (
