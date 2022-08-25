@@ -33,7 +33,7 @@
 ## 導覽列設定
 
 導覽列的所有連結,是在**menuList.ts**設定 (手機版/電腦版,導覽列都會使用這支檔案)
-![](https://i.imgur.com/idIzal0.jpg)
+![](https://i.imgur.com/I8k1UtO.png)
 
 每個連結,包含"名稱"及"對應的連結", **{ i18n: '名稱', href: '對應的連結', isExternal: 是否為外部連結(預設否) }**
 
