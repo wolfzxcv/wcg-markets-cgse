@@ -9,7 +9,7 @@
 2. 把專案抓下來
 3. `npm i`
 4. `npm run dev`
-5. 預設會運行在 **[http://localhost:3100](http://localhost:3100)**
+5. 預設會運行在 **[http://localhost:3300](http://localhost:3300)**
 
 ## 佈署方式
 
@@ -35,39 +35,33 @@
 導覽列的所有連結,是在**menuList.ts**設定 (手機版/電腦版,導覽列都會使用這支檔案)
 ![](https://i.imgur.com/idIzal0.jpg)
 
-每個連結,包含"名稱"及"對應的連結", **{ i18n: '名稱', href: '對應的連結' }**
+每個連結,包含"名稱"及"對應的連結", **{ i18n: '名稱', href: '對應的連結', isExternal: 是否為外部連結(預設否) }**
 
 ```javascript=
 [
   {
-    i18n: 'home', // 主頁
+    i18n: 'home',
     href: '/'
   },
   {
-    i18n: 'feature', // 優勢
-    href: '/feature'
+    i18n: 'about',
+    href: '/about'
   },
   {
-    i18n: 'agent', // 代理類型
-    href: '/agent'
+    i18n: 'openAccount',
+    href: links.register,
+    isExternal: true
   },
   {
-    i18n: 'promotion', // 推廣工具
-    href: '/promotion'
-  },
-  {
-    i18n: 'activity', // 促銷活動
-    href: '/activity'
-  },
-  {
-    i18n: 'contact', // 聯繫方式
-    href: '/contact'
+    i18n: 'userCenter',
+    href: links.userCenter,
+    isExternal: true
   }
 ]
 ```
 
 我們嘗試把不要的連結註解掉(如上方編輯器的截圖),存檔後,重新運行,即可看到以下結果
-![](https://i.imgur.com/U3pzt4K.jpg)
+![](https://i.imgur.com/MK4ZhcI.png)
 
 - 只要從**menuList.ts**更改設定,就能改變導覽列,不需要修改導覽列頁裡面的程式碼,不會影響樣式
 
@@ -110,8 +104,6 @@
   - 開立真實帳戶
 - NEXT_PUBLIC_USERS_CENTER
   - 客戶中心
-- NEXT_PUBLIC_USERS_CENTER_ZH
-  - 客戶中心(中文)
 - NEXT_PUBLIC_MT4_APP
   - MT4 電腦版下載
 - NEXT_PUBLIC_MT4_APK
