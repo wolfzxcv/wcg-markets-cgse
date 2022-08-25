@@ -7,7 +7,6 @@ import {
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Link, Stack } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
@@ -20,6 +19,10 @@ const StrictlyRegulated: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
+
+  const handleAnchor = (anchor) => {
+    router.push(anchor);
+  };
 
   return (
     <Flex justify="center">
@@ -69,7 +72,7 @@ const StrictlyRegulated: React.FC<{}> = () => {
                   py={3}
                   border="1px"
                   _hover={HOVER_PARAMS}
-                  onClick={openChatWindow}
+                  onClick={() => handleAnchor('/#trading_rules')}
                   textAlign="center"
                   width={{
                     base: '70vw',

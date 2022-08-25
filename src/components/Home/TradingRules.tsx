@@ -21,7 +21,7 @@ const TradingRules: React.FC<{}> = () => {
   const COLUMN_PADDING = 3;
 
   return (
-    <Flex justify="center">
+    <Flex justify="center" id="trading_rules">
       <Flex
         width="95vw"
         maxW="1100px"
