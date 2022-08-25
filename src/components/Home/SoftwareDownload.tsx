@@ -22,7 +22,7 @@ const SoftwareDownload: React.FC<{}> = () => {
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
 
   return (
-    <Flex justify="center" bg={FOOTER_FONT_COLOR}>
+    <Flex justify="center" bg={FOOTER_FONT_COLOR} id="software_download">
       <Flex
         width="90vw"
         maxW="1100px"

@@ -18,7 +18,7 @@ const OurAdvantage: React.FC<{}> = () => {
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
 
   return (
-    <Flex justify="center">
+    <Flex justify="center" id="our_advantage">
       <Flex
         width="90vw"
         maxW="1100px"

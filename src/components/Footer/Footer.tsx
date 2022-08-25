@@ -5,6 +5,7 @@ import {
 } from '@/assets/styleConfig';
 import { Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import Download from './Download';
@@ -16,6 +17,12 @@ import TermsAndConditions from './TermsAndConditions';
 
 const Footer: React.FC<{}> = () => {
   const { t } = useTranslation('footer');
+
+  const { push } = useRouter();
+
+  const handleAnchor = (anchor) => {
+    push(anchor);
+  };
 
   return (
     <Flex
@@ -37,7 +44,11 @@ const Footer: React.FC<{}> = () => {
 
         <OpenAccountNow />
 
-        <Flex width="50%" display={{ base: 'block', md: 'none' }}>
+        <Flex
+          width="50%"
+          display={{ base: 'block', md: 'none' }}
+          onClick={() => handleAnchor('/#software_download')}
+        >
           <FooterItemTitle text={t('softwareDownload')} />
         </Flex>
 
