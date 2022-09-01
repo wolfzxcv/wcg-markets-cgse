@@ -9,7 +9,7 @@ export const about: About = {
   theFuture: 'the future',
   strictlyRegulatedAndTrustworthy: 'Strictly regulated and trustworthy',
   WCGIsAProfessional:
-    'WCG is a professional financial investment brand, established in St. Vincent and the Grenadines. It is regulated by its strict laws and regulations (BCN:25293 BC 2019). It is also registered in accordance with the International Business Company Law and strictly regulated to protect the interests of investors.',
+    "Wen Chuan Gold is a registered trader of the Hong Kong Gold and Silver Exchange (trade number: 012), and has been issued a Class A1 trading license. It mainly provides gold and silver trading services for institutions and individual investors, and all transactions are regulated by the Hong Kong Gold and Silver Exchange and regulated by Hong Kong laws. The Hong Kong Gold and Silver Exchange was established in 1910 and has a history of more than 100 years. It is the most influential gold exchange in the Asia-Pacific region. The exchange is responsible for supervising and regulating the trading behavior of bankers, and regularly audits the safety of bankers' funds. item function.",
   tradingProducts: 'Trading products',
   tradingPlatform: 'Trading platform',
   awardWinningPlatform: 'Award-winning platform',
