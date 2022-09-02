@@ -31,5 +31,5 @@ export const about: About = {
   license: '牌照',
   introduction: '介绍',
   WCGIsAuthorized:
-    'WCG获香港金银业贸易场（Chinese Gold & Silver Exchange, CGSE）受权并受其监管。为香港金银业贸易场012行员。'
+    'WCG获香港金银业贸易场（Chinese Gold & Silver Exchange, CGSE）授权并受其监管。为香港金银业贸易场012行员。'
 };

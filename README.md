@@ -1,7 +1,7 @@
 # WCG Markets CGSE
 
-- [正式環境](https://www.wcgpartner.com/)
-- [測試環境](http://18.163.183.177/)
+- [正式環境](https://www.wcghk.com/)
+- [測試環境](https://demo.wcghk.com/)
 
 ## 運行方式
 
