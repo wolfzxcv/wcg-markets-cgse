@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.1.1...v1.2.0) (2022-09-02)
+
+
+### Features
+
+* **add pop:** add a pop window for clarify of fake claims ([e251171](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/e251171a5fcd57c079da1b7f035b1dad4532268a))
+
 ### [1.1.1](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.1.0...v1.1.1) (2022-09-01)
 
 ## 1.1.0 (2022-08-25)
