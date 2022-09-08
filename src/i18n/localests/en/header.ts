@@ -5,6 +5,7 @@ export const header: Header = {
   language: 'LANGUAGE',
   home: 'HOME',
   about: 'ABOUT',
+  contact: 'CONTACT US',
   openAccount: 'OPEN ACCOUNT',
   userCenter: 'USER CENTER',
   liveChat: 'LIVE CHAT'

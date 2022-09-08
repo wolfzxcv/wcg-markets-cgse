@@ -70,9 +70,7 @@ const riskDisclosure: React.FC<{}> = () => {
           <RiskDisclosureItem
             title={t('exchangeOverTheCounter')}
             content={[
-              `${t('inSomeJurisdictions')}${t('WenChuanInternational')} ${t(
-                'soClosing'
-              )}`
+              `${t('inSomeJurisdictions')}${t('WCGMarkets')} ${t('soClosing')}`
             ]}
           />
           {/* 7.暫停或限制交易與定價的關系 */}
@@ -98,7 +96,7 @@ const riskDisclosure: React.FC<{}> = () => {
             title={t('arrangementsFor')}
             content={[
               `${t('inOrderTo')}`,
-              `${t('WenChuanInternationalDoes')}${t('ifTheCustomerUsesAn')}`,
+              `${t('WCGMarketsDoes')}${t('ifTheCustomerUsesAn')}`,
               `${t('ifTheCustomerAccount')}`,
               `${t('ifTheTransaction')}${t('afterDeducting')}`,
               `${t('forTheAbove')} ${t('tradingCommissions1')}`

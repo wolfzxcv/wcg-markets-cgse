@@ -17,6 +17,10 @@ export const menuList: IMenuItem[] = [
     href: '/about'
   },
   {
+    i18n: 'contact',
+    href: '/contact'
+  },
+  {
     i18n: 'openAccount',
     href: links.register,
     isExternal: true

@@ -96,7 +96,7 @@ export const conditions: Conditions = {
   exchangeOverTheCounter: '6.交易所場外交易',
   inSomeJurisdictions:
     '在某些司法管轄區，且僅在限定的情形下，公司可被允許進行場外交易，為客戶進行交易的公司可能是客戶的交易對手。',
-  WenChuanInternational:
+  WCGMarkets:
     'WCG 在很多貴金屬及差價合約交易中是客戶的直接交易對手。WCG 有權拒絕接受或保證任何訂單。',
   soClosing:
     '所以平倉、評估價值、確定公平價格或評估風險可能很困難或不可能。鑒於這些原因，這類交易可能涉及更大的風險。場外交易可能受到較少的監管或受管於不同的監管體系。客戶在開始交易之前，應該清楚瞭解適用的規定和相關風險。',
@@ -118,7 +118,7 @@ export const conditions: Conditions = {
   arrangementsFor: '10.客戶非本人存款安排',
   inOrderTo:
     '為了保障客戶資金安全，防止不良客戶進行洗黑錢等違法活動，WCG 作出以下規定：',
-  WenChuanInternationalDoes:
+  WCGMarketsDoes:
     'WCG 不接受非本人（第三方）銀行賬戶入金。WCG 保留調查核實和拒絕客戶以非本人（第三方）戶口入款的權利。',
   ifTheCustomerUsesAn:
     '客戶若使用非本人姓名賬戶入金而未能提交第三方戶口證明資料，WCG 有權即時凍結客戶賬戶進行調查，禁止其賬戶進行一切交易，並完全有權對客戶賬戶進行以下處理：',

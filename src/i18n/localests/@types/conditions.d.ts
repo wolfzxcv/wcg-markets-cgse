@@ -61,7 +61,7 @@ export type Conditions = {
   customersAbilityToRecover: string;
   exchangeOverTheCounter: string;
   inSomeJurisdictions: string;
-  WenChuanInternational: string;
+  WCGMarkets: string;
   soClosing: string;
   suspensionOrRestriction: string;
   marketCondition: string;
@@ -74,7 +74,7 @@ export type Conditions = {
   theExtentTo: string;
   arrangementsFor: string;
   inOrderTo: string;
-  WenChuanInternationalDoes: string;
+  WCGMarketsDoes: string;
   ifTheCustomerUsesAn: string;
   ifTheCustomerAccount: string;
   ifTheTransaction: string;

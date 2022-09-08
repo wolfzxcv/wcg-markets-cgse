@@ -1,0 +1,9 @@
+import { Contact } from '../@types/contact';
+
+export const contact: Contact = {
+  WeWholeheartedlyProvide:
+    'We wholeheartedly provide a variety of services, and clearly answer your various questions to provide you with the best user experience!',
+  YouCanContact:
+    'You can contact our customer service specialists anytime, anywhere through the following channels.',
+  OfficeHours: 'Office hours: 24/5'
+};

@@ -5,9 +5,11 @@ import {
   HOVER_PARAMS,
   LIVE_CHAT_BORDER
 } from '@/assets/styleConfig';
+import { Locales } from '@/i18n/config';
 import { openChatWindow } from '@/utils';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import React from 'react';
 import DesktopLangSelector from './DesktopLangSelector';
 import DesktopNav from './DesktopNav';
@@ -16,12 +18,18 @@ import Logo from './Logo';
 const DesktopHeader: React.FC<{}> = () => {
   const { t } = useTranslation('header');
 
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+
   return (
     <Flex
       align="center"
       justify="center"
       bg={COMMON_BG}
       fontWeight={FONT_WEIGHT}
+      fontSize={isChinese ? '16px' : '14px'}
     >
       <Flex
         height="80px"

@@ -4,7 +4,7 @@ export const conditions: Conditions = {
   exchangeSocietyMemberCertification:
     'Hong Kong Gold and Silver Exchange Society Member Certification',
   WCGIndustryCo:
-    'Wen Chuan Gold Co., Ltd. is the No. 12 member of the Hong Kong Gold and Silver Exchange.',
+    'WCG Markets (HK) Limited. is the No. 12 member of the Hong Kong Gold and Silver Exchange.',
   wasFoundedIn:
     "The Hong Kong Gold and Silver Exchange was established in 1910. It has various functions such as implementing the business rules of the gold exchange, regulating trading behavior, investigating and punishing members who violate the regulations of the exchange, and providing 'transaction code' query services.",
 
@@ -108,8 +108,8 @@ export const conditions: Conditions = {
   exchangeOverTheCounter: '6. Exchange over-the-counter transactions',
   inSomeJurisdictions:
     "In some jurisdictions, and only in limited circumstances, firms may be permitted to conduct over-the-counter transactions where the firm that trades for the customer may be the customer's counterparty.",
-  WenChuanInternational:
-    "Wen Chuan International Co., Ltd. is the customer's direct counterparty in many precious metal and CFD transactions. Wen Chuan International Limited reserves the right to refuse to accept or guarantee any order.",
+  WCGMarkets:
+    "WCG Markets (HK) Limited is the customer's direct counterparty in many precious metal and CFD transactions. WCG Markets (HK) Limited reserves the right to refuse to accept or guarantee any order.",
   soClosing:
     'So closing a position, assessing value, determining a fair price, or assessing risk may be difficult or impossible. For these reasons, such transactions may involve greater risk. OTC transactions may be less regulated or subject to a different regulatory regime. Customers should clearly understand the applicable regulations and associated risks before starting to trade.',
   suspensionOrRestriction:
@@ -125,25 +125,25 @@ export const conditions: Conditions = {
     'Before commencing trading, customers should inquire about any regulations relating to customer transactions and understand the remedies available in their own location and in other jurisdictions.',
   depositedCash: '9. Deposited cash and property',
   customersMustAcknowledge:
-    'Customers must acknowledge that there are risks associated with placing money or other property in the custody of Wen Chuan International Limited, its representatives or its licensors. Customers should be familiar with the various safeguards regarding money and property deposited by customers for local or foreign transactions, especially if the company faces financial distress or bankruptcy.',
+    'Customers must acknowledge that there are risks associated with placing money or other property in the custody of WCG Markets (HK) Limited, its representatives or its licensors. Customers should be familiar with the various safeguards regarding money and property deposited by customers for local or foreign transactions, especially if the company faces financial distress or bankruptcy.',
   theExtentTo:
     'The extent to which a customer can recover cash and property is subject to specific legislation or local rules or may be significantly delayed. This is a risk that customers must be prepared to take.',
   arrangementsFor:
     '10. Arrangements for deposits made by customers other than themselves',
   inOrderTo:
-    'In order to protect the safety of customer funds and prevent bad customers from conducting money laundering and other illegal activities, Wen Chuan International Co., Ltd. (hereinafter referred to as Wenchuan International) makes the following provisions:',
-  WenChuanInternationalDoes:
-    "Wen Chuan International does not accept deposits from non-personal (third-party) bank accounts. Wen Chuan International reserves the right to investigate, verify and reject the customer's account of non-personal (third-party) account.",
+    'In order to protect the safety of customer funds and prevent bad customers from conducting money laundering and other illegal activities, WCG Markets (HK) Limited makes the following provisions:',
+  WCGMarketsDoes:
+    "WCG Markets (HK) Limited does not accept deposits from non-personal (third-party) bank accounts. WCG Markets (HK) Limited reserves the right to investigate, verify and reject the customer's account of non-personal (third-party) account.",
   ifTheCustomerUsesAn:
-    'If the customer uses an account other than his name to deposit funds and fails to submit the third-party account certification information, Wen Chuan International has the right to immediately freeze the customer account for investigation, prohibit all transactions on his account, and has the full right to deal with the customer account as follows:',
+    'If the customer uses an account other than his name to deposit funds and fails to submit the third-party account certification information, WCG Markets (HK) Limited has the right to immediately freeze the customer account for investigation, prohibit all transactions on his account, and has the full right to deal with the customer account as follows:',
   ifTheCustomerAccount:
-    '1. If the customer account has never conducted any transaction, Wen Chuan International will deduct 10% of all third-party deposits as a reasonable operating cost, and return the balance to the deposit bank account;',
+    '1. If the customer account has never conducted any transaction, WCG Markets (HK) Limited will deduct 10% of all third-party deposits as a reasonable operating cost, and return the balance to the deposit bank account;',
   ifTheTransaction:
-    "2. If any transaction has been performed on the customer's account, all transactions and offers (including spread rebates, bonuses, etc.) from Wen Chuan International from third-party deposits will be cancelled.",
+    "2. If any transaction has been performed on the customer's account, all transactions and offers (including spread rebates, bonuses, etc.) from WCG Markets (HK) Limited from third-party deposits will be cancelled.",
   afterDeducting:
     'After deducting 10% of all third-party deposits as reasonable operating costs, return the balance to the deposit bank account;',
   forTheAbove:
-    '3. For the above situations, Wen Chuan International may, at its discretion, report the relevant incident to any relevant regulatory agency or law enforcement agency.',
+    '3. For the above situations, WCG Markets (HK) Limited may, at its discretion, report the relevant incident to any relevant regulatory agency or law enforcement agency.',
   tradingCommissions1:
     'At the same time, the company has the right to immediately freeze the corresponding customer account and prohibit all transactions, and report relevant incidents to any relevant regulatory agency or law enforcement agency at its discretion.',
   tradingCommissions2: '11. Trading Commissions and Other Charges',
@@ -166,7 +166,7 @@ export const conditions: Conditions = {
   manyElectronic:
     "Many electronic trading facilities are supported by computer-based systems for ordering, executing, and matching trades, and they are susceptible to temporary system failures. Customer's ability to recover certain losses may be subject to the limits of liability set by the system provider, banks and/or other financial institutions, which may vary.",
   inTheOTC:
-    '3. In the OTCGOLD market, the company does not only trade outside the exchange. Wen Chuan International Co., Ltd., the company that conducts transactions for customers, may be the counterparty to customer transactions in many precious metal transactions.',
+    '3. In the OTCGOLD market, the company does not only trade outside the exchange. WCG Markets (HK) Limited, the company that conducts transactions for customers, may be the counterparty to customer transactions in many precious metal transactions.',
   circumstancesThat:
     'Circumstances that may arise, including closing a position, assessing value, determining fair value, or assessing risk disclosure would be difficult or impossible. For these reasons, such transactions may involve greater risk. OTC transactions may be less regulated or subject to a different regulatory regime. Before starting to trade, customers should understand the applicable regulations and associated risks.',
   ifTheCustomerEngages:
@@ -264,7 +264,7 @@ export const conditions: Conditions = {
     'Full transaction details (including date, time, price, position value bought or sold, dollar value and reference number) can be viewed on the trading platform.',
   hedging: '6. Hedging transactions',
   throughWenChuan:
-    "Through Wen Chuan Gold's MT4 platform, you can establish and hold multiple positions and orders for the same trading product.",
+    "Through WCG Markets (HK) Limited's MT4 platform, you can establish and hold multiple positions and orders for the same trading product.",
   whenTrader:
     'When a trader hedges, we will require the trader to deposit a 50% margin on the position in the hedged direction.',
   whenClosing:
@@ -336,5 +336,5 @@ export const conditions: Conditions = {
   confirmedThatAccount:
     '2. If it is confirmed that the account is conducting abnormal transactions, the company will cancel the account and return the remaining funds in the account to the customer. Any profits and commissions arising from abnormal transactions will not be issued.',
   theInterpretation:
-    '*The interpretation of abnormal transactions belongs to Wen Chuan Gold Co., Ltd. If there is any dispute, the decision of Wen Chuan International shall be the final judgment.'
+    '*The interpretation of abnormal transactions belongs to WCG Markets (HK) Limited. If there is any dispute, the decision of WCG Markets (HK) Limited shall be the final judgment.'
 };
