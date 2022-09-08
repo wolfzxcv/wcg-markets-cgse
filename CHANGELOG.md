@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.3...v1.2.4) (2022-09-08)
+
+
+### Bug Fixes
+
+* **many:** modify company name, add contact ([964ff44](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/964ff4457a168c98fb8ef620460933f9eacf8d60))
+
 ### [1.2.3](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.2...v1.2.3) (2022-09-05)
 
 ### [1.2.2](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.1...v1.2.2) (2022-09-02)
