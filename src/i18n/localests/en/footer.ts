@@ -24,6 +24,8 @@ export const footer: Footer = {
     "The Most Trusted Investor Award in China's Financial Industry",
   honoraryAward5: 'Internet Finance Most Innovative Award',
   contactUs: 'Contact Us',
+  address:
+    'ADDRESS: Flat D, 22/F, Tower B, Capital Tower, No 38 Wai Yip Street, Kowloon Bay, Hong Kong',
   copyright: 'All rights reserved, may not be reproduced.',
   riskWarning:
     'Risk Warning: Margin trading has high risks, and investors need to rely on their own ability when investing. There are profits and losses on the investment, and you may lose your entire principal. Margin trading may not be suitable for all investors, please confirm that you have fully understood the relevant risks before trading.'

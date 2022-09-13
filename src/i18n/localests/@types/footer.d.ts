@@ -46,6 +46,8 @@ export type Footer = {
   honoraryAward5: string;
   /** contact us */
   contactUs: string;
+  /** address */
+  address: string;
   /** copyright */
   copyright: string;
   /** risk warning */

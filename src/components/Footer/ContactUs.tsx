@@ -3,7 +3,7 @@ import { HOVER_PARAMS } from '@/assets/styleConfig';
 import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import { FooterItem, FooterItemTitle } from './FooterItem';
+import { FooterItem, FooterItemBase, FooterItemTitle } from './FooterItem';
 
 const ContactUs: React.FC<{}> = () => {
   const { t } = useTranslation('footer');
@@ -23,6 +23,8 @@ const ContactUs: React.FC<{}> = () => {
         href={`mailto:${links.email}`}
         isExternal
       />
+
+      <FooterItemBase text={t('address')} />
 
       <Flex mt={5}>
         <Box mr={5} _hover={HOVER_PARAMS} onClick={openChatWindow}>
