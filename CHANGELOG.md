@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.5...v1.3.0) (2022-09-13)
+
+
+### Features
+
+* **login:** add login page ([007c13a](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/007c13a73d98d9dc4cfefe8c5a7ef192bd2d025e))
+
 ### [1.2.5](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.4...v1.2.5) (2022-09-08)
 
 ### [1.2.4](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.2.3...v1.2.4) (2022-09-08)
