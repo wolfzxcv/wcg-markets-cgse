@@ -16,16 +16,14 @@ export const links = {
     'https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=install.metaquotes',
   // 用戶中心註冊
   register:
-    '/login' ||
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
     'https://my.wcgmarkets-global.com/register',
   // 用戶中心
   userCenter:
-    '/login' ||
     process.env.NEXT_PUBLIC_USERS_CENTER ||
     'https://my.wcgmarkets-global.com/login',
   // 聯絡電話
-  tel: '+85238963608',
+  tel: '4001 203 612',
   // 聯絡信箱
   email: 'support@wcghk.com'
 };
