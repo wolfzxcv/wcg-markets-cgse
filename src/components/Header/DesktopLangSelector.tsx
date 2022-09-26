@@ -77,8 +77,7 @@ const DesktopLangSelector: React.FC<{}> = () => {
             borderColor={LIVE_CHAT_BORDER}
             bg={COMMON_BG}
             color={COMMON_FONT_COLOR}
-            px={2}
-            py={1}
+            p={1}
             align="center"
           >
             <Flex align="center" justify="center">

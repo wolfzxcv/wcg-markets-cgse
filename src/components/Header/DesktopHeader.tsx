@@ -29,15 +29,15 @@ const DesktopHeader: React.FC<{}> = () => {
       justify="center"
       bg={COMMON_BG}
       fontWeight={FONT_WEIGHT}
-      fontSize={isChinese ? '16px' : '14px'}
+      fontSize={isChinese ? '16px' : '12px'}
     >
       <Flex
         height="80px"
         justify="space-between"
         align="center"
-        width="80vw"
+        width="100%"
         maxW="1100px"
-        minW="835px"
+        minW="830px"
       >
         <Logo />
         <DesktopNav />
@@ -48,10 +48,11 @@ const DesktopHeader: React.FC<{}> = () => {
           onClick={openChatWindow}
           border="1px"
           borderColor={LIVE_CHAT_BORDER}
-          px={5}
+          px={{ base: 1, lg: 2 }}
           py={1}
         >
           <Image
+            display={{ base: 'none', lg: 'block' }}
             mr={1}
             width="22px"
             height="20px"

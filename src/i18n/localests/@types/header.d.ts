@@ -10,6 +10,8 @@ export type Header = {
   home: string;
   /** about */
   about: string;
+  /** announcement */
+  announcement: string;
   /** contact */
   contact: string;
   /** open Account */

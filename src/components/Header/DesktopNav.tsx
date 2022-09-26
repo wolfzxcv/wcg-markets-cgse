@@ -38,7 +38,7 @@ const DesktopNavItem: React.FC<IMenuItem> = ({
 
   return isExternal ? (
     <Link href={href} isExternal _hover={HOVER_PARAMS}>
-      <Box px={4} transition={TRANSITION}>
+      <Box px={2} transition={TRANSITION}>
         {t(i18n)}
       </Box>
     </Link>
@@ -46,7 +46,7 @@ const DesktopNavItem: React.FC<IMenuItem> = ({
     <NextLink passHref={true} href={href} locale={currentLang}>
       <Box
         _hover={HOVER_PARAMS}
-        px={4}
+        px={2}
         transition={TRANSITION}
         color={router.pathname === href ? LIVE_CHAT_BORDER : 'inherit'}
       >

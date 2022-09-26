@@ -5,6 +5,7 @@ export const header: Header = {
   language: '语言',
   home: '主页',
   about: '关于我们',
+  announcement: '平台公告',
   contact: '联系方式',
   openAccount: '开户交易',
   userCenter: '用户中心',

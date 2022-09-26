@@ -16,7 +16,7 @@ const contact: React.FC<{}> = () => {
       <Flex
         bgColor="#e45729"
         height="395px"
-        bgImage="../assets/images/contact_banner.jpg"
+        bgImage="/../assets/images/contact_banner.jpg"
         bgPosition="center"
         justify="center"
         align="end"
@@ -53,15 +53,15 @@ const contact: React.FC<{}> = () => {
         >
           <ContactIcon
             onClick={openChatWindow}
-            imageSrc="../assets/images/contact_live_chat.png"
+            imageSrc="/../assets/images/contact_live_chat.png"
           />
           <ContactIcon
             href={`mailto:${links.email}`}
-            imageSrc="../assets/images/contact_email.png"
+            imageSrc="/../assets/images/contact_email.png"
           />
           <ContactIcon
             href={`tel:${links.tel}`}
-            imageSrc="../assets/images/contact_tel.png"
+            imageSrc="/../assets/images/contact_tel.png"
           />
         </Flex>
       </Flex>

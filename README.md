@@ -48,6 +48,11 @@
     href: '/about'
   },
   {
+    i18n: 'contact',
+    href: '/contact'
+  },
+  { i18n: 'announcement', href: '/announcement' },
+  {
     i18n: 'openAccount',
     href: links.register,
     isExternal: true
@@ -100,6 +105,8 @@
 
 ### 環境變數
 
+- NEXT_PUBLIC_API_URL
+  - 所有 API
 - NEXT_PUBLIC_REGISTER_REAL
   - 開立真實帳戶
 - NEXT_PUBLIC_USERS_CENTER
