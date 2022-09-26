@@ -17,7 +17,7 @@ const license: React.FC<{}> = () => {
         align="center"
       >
         <Flex width={{ base: '80vw', xl: '20%' }} justify={'center'}>
-          <Image src="../assets/images/license_license.png" alt="device" />
+          <Image src="/../assets/images/license_license.png" alt="device" />
         </Flex>
         <Box
           my={{ base: 10, xl: 0 }}

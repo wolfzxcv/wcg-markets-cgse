@@ -20,10 +20,22 @@ export type About = {
   tradingProducts: string;
   /** Trading platform */
   tradingPlatform: string;
-  /** Award-winning platform */
-  awardWinningPlatform: string;
-  /** Based on the basic principles */
-  basedOnTheBasicPrinciples: string;
+  /** Award title 1 */
+  awardTitle1: string;
+  /** Award text 1 */
+  awardText1: string;
+  /** Award title 2 */
+  awardTitle2: string;
+  /** Award text 2 */
+  awardText2: string;
+  /** Award title 3 */
+  awardTitle3: string;
+  /** Award text 3 */
+  awardText3: string;
+  /** Award title 4 */
+  awardTitle4: string;
+  /** Award text 4 */
+  awardText4: string;
   /** WCG is always your */
   WCGIsAlwaysYour: string;
   /** smart choice */

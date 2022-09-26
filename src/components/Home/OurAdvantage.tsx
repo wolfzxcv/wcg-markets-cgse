@@ -69,37 +69,37 @@ const OurAdvantage: React.FC<{}> = () => {
           <Flex wrap="wrap" justify="center">
             {/* Items */}
             <AdvantageItem
-              imageSrc="../assets/images/advantage_01.png"
+              imageSrc="/../assets/images/advantage_01.png"
               title={t('TheChineseGoldAndSilverExchangeSociety')}
               text={t('No012')}
             />
 
             <AdvantageItem
-              imageSrc="../assets/images/advantage_02.png"
+              imageSrc="/../assets/images/advantage_02.png"
               title={t('experiencedRiskControlTeam')}
               text={t('moreThanTenYearsOfExperience')}
             />
 
             <AdvantageItem
-              imageSrc="../assets/images/advantage_03.png"
+              imageSrc="/../assets/images/advantage_03.png"
               title={t('tradeFasterWithSmartTechnology')}
               text={t('superiorTradeExecutions')}
             />
 
             <AdvantageItem
-              imageSrc="../assets/images/advantage_04.png"
+              imageSrc="/../assets/images/advantage_04.png"
               title={t('convenientDepositAndWithdrawals')}
               text={t('topUpYourAccount')}
             />
 
             <AdvantageItem
-              imageSrc="../assets/images/advantage_05.png"
+              imageSrc="/../assets/images/advantage_05.png"
               title={t('professionalCustomerService')}
               text={t('instantOnline')}
             />
 
             <AdvantageItem
-              imageSrc="../assets/images/advantage_06.png"
+              imageSrc="/../assets/images/advantage_06.png"
               title={t('transparencyOfTheTradingEnvironment')}
               text={t('giveYouATrustedPlatform')}
             />

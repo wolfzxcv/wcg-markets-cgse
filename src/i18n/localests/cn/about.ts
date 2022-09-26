@@ -12,9 +12,18 @@ export const about: About = {
     '文传金业是香港金银业贸易场註册行员（行员编号：012），并获发A1类别交易牌照，主要为机构及个别投资者提供黄金及白银等买卖服务，而所有交易均受到香港金银业贸易场的监管，以及香港法律的管制。香港金银业贸易场于1910年成立，迄今已具百年以上的历史，是亚太地区最具影响力的黄金交易所，交易所专责监管与规范行员的交易行为，定期审核行员的资金安全等各项职能。',
   tradingProducts: '交易产品',
   tradingPlatform: '交易平台',
-  awardWinningPlatform: '平台屡获殊荣',
-  basedOnTheBasicPrinciples:
+  awardTitle1: '平台屡获殊荣',
+  awardText1:
     '基于公平、公正、透明的基本原则，一直深受全球用户的信赖及支持，以客户为中心、诚心笃行。',
+  awardTitle2: '多方系统支持',
+  awardText2:
+    '全面支持电脑，手机，平板等系统，满足投资者足不出户，实时获取货币报价及金融商品的信息。',
+  awardTitle3: '迅捷交易速度',
+  awardText3:
+    '全球提供深层流动性池和低延迟连接，从而使得我们客户可以获得超快的执行速度和超低的延迟。',
+  awardTitle4: '卓越客户服务',
+  awardText4:
+    '提供卓越执行、透明报价、优质工具、市场新闻及专业知识等服务，让用户获得更多的收益。',
   WCGIsAlwaysYour: 'WCG永远都是您的',
   smartChoice: '明智之选',
   WCGKeepsMakingProgress:

@@ -56,7 +56,7 @@ const LicenseIntroduction: React.FC<{}> = () => {
             <Flex>
               <Image
                 my={{ base: 10, md: 0 }}
-                src="../assets/images/license_introduction.jpg"
+                src="/../assets/images/license_introduction.jpg"
                 alt="license_introduction"
               />
             </Flex>

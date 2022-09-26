@@ -11,7 +11,7 @@ const disclaimer: React.FC<{}> = () => {
     <Wrapper>
       <Flex my={10} direction="column" align="center">
         <Heading size="lg">{t('disclaimer')} </Heading>
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
         <Stack spacing={3} w={'60vw'} fontSize={'16px'}>
           {/* A */}
           <Text>

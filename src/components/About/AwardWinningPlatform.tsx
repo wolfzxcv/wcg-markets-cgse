@@ -21,7 +21,7 @@ const AwardWinningPlatform: React.FC<{}> = () => {
     <Flex
       minH={{ base: '600px', md: '800px' }}
       bg={COMMON_BG}
-      bgImage="../assets/images/award_winning_platform_bg.png"
+      bgImage="/../assets/images/award_winning_platform_bg.png"
       bgPosition={{ base: 'bottom center', md: 'top center' }}
       bgSize="cover"
       bgRepeat="no-repeat"
@@ -43,10 +43,10 @@ const AwardWinningPlatform: React.FC<{}> = () => {
               mr={{ base: 0, md: 10 }}
               pt="150px"
             >
-              <Box>{t('awardWinningPlatform')}</Box>
+              <Box>{t('awardTitle1')}</Box>
 
               <Box fontSize="14px" textAlign={{ base: 'center', md: 'left' }}>
-                {t('basedOnTheBasicPrinciples')}
+                {t('awardText1')}
               </Box>
 
               <Flex
@@ -63,8 +63,8 @@ const AwardWinningPlatform: React.FC<{}> = () => {
                 position="relative"
                 top={{ base: '100px', md: 0 }}
                 width={{ base: '80vw', md: '80%' }}
-                src="../assets/images/award_winning_platform_01.png"
-                alt="strictly_regulated"
+                src="/../assets/images/award_winning_platform_01.png"
+                alt="award_winning_platform"
               />
             </Flex>
           </InViewSlideFade>

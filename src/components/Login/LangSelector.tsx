@@ -33,11 +33,11 @@ const LangSelector: React.FC<{}> = () => {
       </MenuButton>
       <MenuList minW={{ base: '90px', md: '150px' }} zIndex={3}>
         <MenuItem onClick={() => handleLanguageChange('EN')}>
-          <Image src={`../assets/images/login_lang_EN.png`} alt="EN"></Image>
+          <Image src={`/../assets/images/login_lang_EN.png`} alt="EN"></Image>
           <Text ml={4}>EN</Text>
         </MenuItem>
         <MenuItem onClick={() => handleLanguageChange('ZH')}>
-          <Image src={`../assets/images/login_lang_ZH.png`} alt="ZH"></Image>
+          <Image src={`/../assets/images/login_lang_ZH.png`} alt="ZH"></Image>
           <Text ml={4}>ZH</Text>
         </MenuItem>
       </MenuList>

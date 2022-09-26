@@ -34,7 +34,7 @@ const StrictlyRegulated: React.FC<{}> = () => {
                 position="relative"
                 top={{ base: '100px', md: 0 }}
                 width={{ base: '80vw', md: '80%' }}
-                src="../assets/images/strictly_regulated.png"
+                src="/../assets/images/strictly_regulated.png"
                 alt="strictly_regulated"
               />
             </Flex>

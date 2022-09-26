@@ -10,7 +10,7 @@ const FooterLogo: React.FC<{}> = () => {
   return (
     <NextLink passHref={true} href="/" locale={currentLang}>
       <Box width="150px">
-        <Image src="../assets/images/logo.png" alt="logo" />
+        <Image src="/../assets/images/logo.png" alt="logo" />
       </Box>
     </NextLink>
   );

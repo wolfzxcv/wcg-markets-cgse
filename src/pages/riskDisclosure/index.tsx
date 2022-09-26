@@ -13,7 +13,7 @@ const riskDisclosure: React.FC<{}> = () => {
         <Stack spacing={1}>
           <Heading fontSize="30px">{t('riskDisclosure')} </Heading>
         </Stack>
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <Stack spacing={3} w={'60vw'} fontSize={'16px'}>
           <RiskDisclosureItem

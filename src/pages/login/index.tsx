@@ -28,7 +28,7 @@ const login: React.FC<{}> = () => {
     <Flex
       flexDir="column"
       bg={BG}
-      bgImage="../assets/images/login_bg.png"
+      bgImage="/../assets/images/login_bg.png"
       bgPosition="center"
       bgSize="contain"
       bgRepeat="no-repeat"
@@ -41,14 +41,14 @@ const login: React.FC<{}> = () => {
                 width="42px"
                 height="42px"
                 display={{ base: 'block', md: 'none' }}
-                src="../assets/images/login_logo_mobile.svg"
+                src="/../assets/images/login_logo_mobile.svg"
                 alt="logo"
               />
               <Image
                 width="160px"
                 height="110px"
                 display={{ base: 'none', md: 'block' }}
-                src="../assets/images/login_logo_pc.svg"
+                src="/../assets/images/login_logo_pc.svg"
                 alt="logo"
               />
             </Link>

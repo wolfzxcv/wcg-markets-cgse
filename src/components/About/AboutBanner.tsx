@@ -18,8 +18,8 @@ const AboutBanner: React.FC<{}> = () => {
       minH={{ base: '700px', md: '850px' }}
       bg={COMMON_BG}
       bgImage={{
-        base: '../assets/images/about_banner_M.png',
-        md: '../assets/images/about_banner.png'
+        base: '/../assets/images/about_banner_M.png',
+        md: '/../assets/images/about_banner.png'
       }}
       bgPosition={{ base: 'bottom center', md: 'top center' }}
       bgSize="cover"
@@ -64,7 +64,7 @@ const AboutBanner: React.FC<{}> = () => {
             width={{ base: 'auto', md: '80%' }}
             position="relative"
             top={{ base: '-50px', md: '130px' }}
-            src="../assets/images/about_banner_phone.png"
+            src="/../assets/images/about_banner_phone.png"
             alt="about_banner_phone"
           />
         </InViewSlideFade>

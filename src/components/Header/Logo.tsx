@@ -6,7 +6,7 @@ const Logo: React.FC<{}> = () => {
   return (
     <Flex align="center" justify={{ base: 'center', md: 'auto' }}>
       <Box width={{ base: '25%', xl: '30%' }}>
-        <Image src="../assets/images/logo_header.png" alt="logo" />
+        <Image src="/../assets/images/logo_header.png" alt="logo" />
       </Box>
       <Box
         display={{ base: 'none', xl: 'block' }}

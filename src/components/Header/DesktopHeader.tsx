@@ -56,7 +56,7 @@ const DesktopHeader: React.FC<{}> = () => {
             mr={1}
             width="22px"
             height="20px"
-            src="../assets/images/live_chat_icon.png"
+            src="/../assets/images/live_chat_icon.png"
             alt="live_chat"
           />
           <Box>{t('liveChat')}</Box>

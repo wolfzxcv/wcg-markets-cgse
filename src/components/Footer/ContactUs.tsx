@@ -29,7 +29,7 @@ const ContactUs: React.FC<{}> = () => {
           <Image
             width="22px"
             height="20px"
-            src="../assets/images/live_chat_icon.png"
+            src="/../assets/images/live_chat_icon.png"
             alt="live_chat"
           />
         </Box>
@@ -37,7 +37,7 @@ const ContactUs: React.FC<{}> = () => {
           <Image
             width="27px"
             height="23px"
-            src="../assets/images/wechat_icon.png"
+            src="/../assets/images/wechat_icon.png"
             alt="wechat"
           />
         </Link>
@@ -46,7 +46,7 @@ const ContactUs: React.FC<{}> = () => {
           <Image
             width="27px"
             height="23px"
-            src="../assets/images/weibo_icon.png"
+            src="/../assets/images/weibo_icon.png"
             alt="weibo"
           />
         </Link>

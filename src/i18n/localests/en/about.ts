@@ -12,9 +12,18 @@ export const about: About = {
     "WCG Markets (HK) Limited is a registered trader of the Hong Kong Gold and Silver Exchange (trade number: 012), and has been issued a Class A1 trading license. It mainly provides gold and silver trading services for institutions and individual investors, and all transactions are regulated by the Hong Kong Gold and Silver Exchange and regulated by Hong Kong laws. The Hong Kong Gold and Silver Exchange was established in 1910 and has a history of more than 100 years. It is the most influential gold exchange in the Asia-Pacific region. The exchange is responsible for supervising and regulating the trading behavior of bankers, and regularly audits the safety of bankers' funds. item function.",
   tradingProducts: 'Trading products',
   tradingPlatform: 'Trading platform',
-  awardWinningPlatform: 'Award-winning platform',
-  basedOnTheBasicPrinciples:
+  awardTitle1: 'Award-winning platform',
+  awardText1:
     'Based on the basic principles of fairness, impartiality and transparency, it has always been trusted and supported by users around the world, and is customer-centric and sincere.',
+  awardTitle2: 'Multi-party system support',
+  awardText2:
+    'Comprehensive support for computers, mobile phones, tablets and other systems, to satisfy investors without leaving home, real-time access to currency quotes and financial product information.',
+  awardTitle3: 'Quick transaction speed',
+  awardText3:
+    'Deep liquidity pools and low-latency connections are available globally, allowing our clients to achieve ultra-fast execution speeds and ultra-low latency.',
+  awardTitle4: 'Excellent Customer Service',
+  awardText4:
+    'Provide services such as excellent execution, transparent quotes, high-quality tools, market news and professional knowledge, so that users can obtain more benefits.',
   WCGIsAlwaysYour: 'WCG is always your',
   smartChoice: 'smart choice',
   WCGKeepsMakingProgress:

@@ -25,8 +25,8 @@ const HomeBanner: React.FC<{}> = () => {
       minH={{ base: '700px', md: '850px' }}
       bg={COMMON_BG}
       bgImage={{
-        base: '../assets/images/home_banner_M.jpg',
-        md: '../assets/images/home_banner.jpg'
+        base: '/../assets/images/home_banner_M.jpg',
+        md: '/../assets/images/home_banner.jpg'
       }}
       bgPosition="top center"
       bgSize={{ base: 'cover', md: 'cover' }}
@@ -95,7 +95,7 @@ const HomeBanner: React.FC<{}> = () => {
         <InViewSlideFade>
           <Flex>
             <Image
-              src="../assets/images/home_banner_phone.png"
+              src="/../assets/images/home_banner_phone.png"
               alt="home_banner_phone"
             />
           </Flex>

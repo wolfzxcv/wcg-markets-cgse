@@ -12,9 +12,18 @@ export const about: About = {
     '文傳金業是香港金銀業貿易場註冊行員（行員編號：012），並獲發A1類別交易牌照，主要為機構及個別投資者提供黃金及白銀等買賣服務，而所有交易均受到香港金銀業貿易場的監管，以及香港法律的管制。香港金銀業貿易場於1910年成立，迄今已具百年以上的歷史，是亞太地區最具影響力的黃金交易所，交易所專責監管與規範行員的交易行為，定期審核行員的資金安全等各項職能。 ',
   tradingProducts: '交易產品',
   tradingPlatform: '交易平台',
-  awardWinningPlatform: '平台屢獲殊榮',
-  basedOnTheBasicPrinciples:
+  awardTitle1: '平台屢獲殊榮',
+  awardText1:
     '基於公平、公正、透明的基本原則，一直深受全球用戶的信賴及支持，以客戶為中心、誠心篤行。',
+  awardTitle2: '多方系統支持',
+  awardText2:
+    '全面支持電腦，手機，平板等系統，滿足投資者足不出戶，實時獲取貨幣報價及金融商品的信息。',
+  awardTitle3: '迅捷交易速度',
+  awardText3:
+    '全球提供深層流動性池和低延遲連接，從而使得我們客戶可以獲得超快的執行速度和超低的延遲。',
+  awardTitle4: '卓越客戶服務',
+  awardText4:
+    '提供卓越執行、透明報價、優質工具、市場新聞及專業知識等服務，讓用戶獲得更多的收益。',
   WCGIsAlwaysYour: 'WCG永遠都是您的',
   smartChoice: '明智之選',
   WCGKeepsMakingProgress:

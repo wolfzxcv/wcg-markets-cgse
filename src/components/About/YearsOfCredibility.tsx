@@ -15,19 +15,19 @@ const YearsOfCredibility: React.FC<{}> = () => {
       <Flex width="90vw" maxW="1100px" flexDir="column">
         <Flex flexDir={{ base: 'column', md: 'row' }} color={COMMON_FONT_COLOR}>
           <YearsOfCredibilityItem
-            imageSrc="../assets/images/years_of_credibility_01.png"
+            imageSrc="/../assets/images/years_of_credibility_01.png"
             title={t('yearsOfCredibility')}
             text={t('adheringToTheOriginalIntention')}
           />
 
           <YearsOfCredibilityItem
-            imageSrc="../assets/images/years_of_credibility_02.png"
+            imageSrc="/../assets/images/years_of_credibility_02.png"
             title={t('richResources')}
             text={t('weWillDoOurBest')}
           />
 
           <YearsOfCredibilityItem
-            imageSrc="../assets/images/years_of_credibility_03.png"
+            imageSrc="/../assets/images/years_of_credibility_03.png"
             title={t('qualityService')}
             text={t('ourSalesTeam')}
           />

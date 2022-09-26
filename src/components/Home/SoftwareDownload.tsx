@@ -76,7 +76,7 @@ const SoftwareDownload: React.FC<{}> = () => {
             <Flex>
               <Image
                 ml={{ base: 0, md: 20 }}
-                src="../assets/images/software_download.png"
+                src="/../assets/images/software_download.png"
                 alt="software_download"
               />
             </Flex>
@@ -91,19 +91,19 @@ const SoftwareDownload: React.FC<{}> = () => {
               my={10}
             >
               <SoftwareDownloadItem
-                imageUrl="../assets/images/software_download_ios.png"
+                imageUrl="/../assets/images/software_download_ios.png"
                 text={t('IOSDownload')}
                 href={links.mt4IOS}
               />
 
               <SoftwareDownloadItem
-                imageUrl="../assets/images/software_download_android.png"
+                imageUrl="/../assets/images/software_download_android.png"
                 text={t('AndroidDownload')}
                 href={links.mt4Android}
               />
 
               <SoftwareDownloadItem
-                imageUrl="../assets/images/software_download_windows.png"
+                imageUrl="/../assets/images/software_download_windows.png"
                 text={t('WindowsDownload')}
                 href={links.mt4App}
               />
