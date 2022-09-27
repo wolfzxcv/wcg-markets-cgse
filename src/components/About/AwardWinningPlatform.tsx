@@ -50,7 +50,12 @@ const AwardWinningPlatform: React.FC<{}> = () => {
     <Box
       ref={element}
       onWheel={(e: React.MouseEvent) => determinePic(e.pageY)}
+      onTouchEnd={(e: React.TouchEvent) =>
+        determinePic(e.changedTouches[0].pageY)
+      }
+      onMouseUp={(e: React.MouseEvent) => determinePic(e.pageY)}
       onMouseMove={(e: React.MouseEvent) => determinePic(e.pageY)}
+      onMouseLeave={() => setShow(false)}
     >
       <AwardWinningPlatformEach
         title={t('awardTitle1')}
@@ -74,10 +79,11 @@ const AwardWinningPlatform: React.FC<{}> = () => {
 
       <Image
         width={{ base: '80vw', md: '50%' }}
+        maxWidth="750px"
         display={show ? 'block' : 'none'}
         position="fixed"
         top="150px"
-        right="50px"
+        right={{ base: '50px', md: '10%' }}
         src={`/../assets/images/award_winning_platform_${pic}.png`}
         alt="award_winning_platform"
       />
