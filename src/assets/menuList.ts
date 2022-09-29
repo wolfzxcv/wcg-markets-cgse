@@ -20,7 +20,7 @@ export const menuList: IMenuItem[] = [
     i18n: 'contact',
     href: '/contact'
   },
-  { i18n: 'announcement', href: '/announcement' },
+  // { i18n: 'announcement', href: '/announcement' },
   {
     i18n: 'openAccount',
     href: links.register,
