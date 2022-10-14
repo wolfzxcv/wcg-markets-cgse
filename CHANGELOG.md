@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.3.6...v1.4.0) (2022-10-14)
+
+
+### Features
+
+* **popup:** add WCGFQ ([68f83d0](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/68f83d0684545e0f74fa7e2ac55da4b653e09400))
+
 ### [1.3.6](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.3.5...v1.3.6) (2022-09-29)
 
 ### [1.3.5](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.3.4...v1.3.5) (2022-09-28)
