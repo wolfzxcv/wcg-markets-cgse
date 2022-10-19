@@ -11,5 +11,5 @@ export const header: Header = {
   userCenter: 'USER CENTER',
   liveChat: 'LIVE CHAT',
   reminder:
-    'Reminder: You are now visiting the Hong Kong website, WCG Markets (HK) Limited is a registered trader of the Hong Kong Gold and Silver Exchange (trade number: 012), and has been issued a Class A1 trading license. Investment needs to be cautious: spot gold and silver investment is a Hong Kong compliant investment product, operating in accordance with Hong Kong regulations, may not comply with your regional regulations.'
+    'Reminder: You are visiting the website from Hong Kong, WCG Markets (HK) Limited is a registered trader of the Hong Kong Gold and Silver Exchange (trade number: 012), and has been issued a Class A1 trading license. Investment needs to be cautious: spot gold and silver investment is a Hong Kong compliant investment product, operating in accordance with Hong Kong regulations, may not comply with your regional regulations.'
 };
