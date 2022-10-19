@@ -1,6 +1,7 @@
 import { useDisclosure } from '@chakra-ui/hooks';
 import {
   AlertDialogOverlay,
+  Box,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -11,7 +12,7 @@ import {
 import React, { useEffect } from 'react';
 
 type PopUpProps = {
-  title: string;
+  title: string | JSX.Element;
   content: JSX.Element;
   useBorder?: boolean;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'full';
@@ -37,10 +38,12 @@ const PopUp: React.FC<PopUpProps> = ({
 
   let HEADER_SIZE = isDesktop ? '24px' : '20px';
 
-  const longTitle = title.length > 30;
+  const titleIsString = typeof title === 'string';
 
-  if (longTitle) {
-    HEADER_SIZE = isDesktop ? '16px' : '12px';
+  const longTitle = titleIsString && title.length > 30;
+
+  if (longTitle || !titleIsString) {
+    HEADER_SIZE = '14px';
   }
 
   return (
@@ -56,19 +59,19 @@ const PopUp: React.FC<PopUpProps> = ({
 
       <ModalContent>
         <ModalHeader
-          fontSize={HEADER_SIZE}
           fontWeight="bold"
+          fontSize={HEADER_SIZE}
           bg="black"
           color="white"
           textAlign="center"
           py={isDesktop ? 1 : 2}
         >
-          {title}
+          {typeof title === 'string' ? <Box>{title}</Box> : title}
         </ModalHeader>
         <ModalCloseButton
           color="white"
           size="lg"
-          top={longTitle ? 4 : isDesktop ? 1 : 0}
+          top={!titleIsString || longTitle ? 4 : isDesktop ? 1 : 0}
         />
         <ModalBody p={0} border={useBorder ? '1px' : '0'} borderColor="white">
           {content}

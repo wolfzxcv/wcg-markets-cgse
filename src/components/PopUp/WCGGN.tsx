@@ -10,19 +10,29 @@ const WCGGN: React.FC<{}> = () => {
 
   return currentLang === 'zh' ? (
     <PopUp
-      title="喜訊！ WCG Markets已完成收購盈富Wealth Gold Group及酷極KUJI兩大交易商"
+      title={
+        <>
+          <Box>喜訊！</Box>
+          <Box>WCG Markets已完成收購兩大交易商</Box>
+        </>
+      }
       content={<WCGGNZh />}
       useBorder={false}
     />
   ) : currentLang === 'cn' ? (
     <PopUp
-      title="喜讯！ WCG Markets已完成收购盈富Wealth Gold Group及酷极KUJI两大交易商"
+      title={
+        <>
+          <Box>喜讯！</Box>
+          <Box>WCG Markets已完成收购两大交易商</Box>
+        </>
+      }
       content={<WCGGNCn />}
       useBorder={false}
     />
   ) : (
     <PopUp
-      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers, Wealth Gold Group and KUJI"
+      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers"
       content={<WCGGNEn />}
       useBorder={false}
     />
