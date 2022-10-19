@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.4](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.3...v1.5.4) (2022-10-19)
+
+
+### Bug Fixes
+
+* **header:** modify reminder wording in header ([6f354c8](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/6f354c83fddd42a6b3c523c6a4fcf10b80b5fb01))
+
 ### [1.5.3](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.2...v1.5.3) (2022-10-19)
 
 
