@@ -20,4 +20,6 @@ export type Header = {
   userCenter: string;
   /** live chat */
   liveChat: string;
+  /** reminder */
+  reminder: string;
 };

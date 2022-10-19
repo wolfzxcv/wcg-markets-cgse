@@ -9,5 +9,7 @@ export const header: Header = {
   contact: '聯繫方式',
   openAccount: '開戶交易',
   userCenter: '用戶中心',
-  liveChat: '在線客服'
+  liveChat: '在線客服',
+  reminder:
+    '溫馨提示：您現在訪問的是香港網站，文傳金業-香港金銀業貿易場A1類012號持牌行員，現貨黃金白銀投資屬于香港合規投資産品，依據香港條例運營，未必符合您地區法規，投資需謹慎。'
 };
