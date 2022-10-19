@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.3](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.2...v1.5.3) (2022-10-19)
+
+
+### Bug Fixes
+
+* **popup:** fix popup title ([946ece3](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/946ece3c1dc26af15af1dd995f25848f1012aa83))
+
 ### [1.5.2](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.1...v1.5.2) (2022-10-19)
 
 ### [1.5.1](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.0...v1.5.1) (2022-10-19)
