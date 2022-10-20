@@ -28,6 +28,8 @@ const Download: React.FC<{}> = () => {
           href={links.mt4App}
           isExternal
         />
+
+        <FooterItem text={t('MT4WebTrader')} href={links.mt4Web} isExternal />
       </Flex>
     </>
   );

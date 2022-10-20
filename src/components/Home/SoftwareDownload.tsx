@@ -108,6 +108,12 @@ const SoftwareDownload: React.FC<{}> = () => {
                 href={links.mt4App}
               />
 
+              <SoftwareDownloadItem
+                imageUrl="/../assets/images/software_download_web.png"
+                text={t('MT4WebTrader')}
+                href={links.mt4Web}
+              />
+
               <Box>{t('customizableInterface')}</Box>
 
               <Flex justify={{ base: 'center', md: 'flex-start' }}>

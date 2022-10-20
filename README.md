@@ -115,3 +115,5 @@
   - MT4 電腦版下載
 - NEXT_PUBLIC_MT4_APK
   - MT4 APP(華為)下載
+- NEXT_PUBLIC_MT4_WEB
+  - MT4 網頁版

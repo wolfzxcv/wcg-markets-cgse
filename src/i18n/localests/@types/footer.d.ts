@@ -16,6 +16,8 @@ export type Footer = {
   AndroidDownload: string;
   /** Windows download */
   WindowsDownload: string;
+  /** MT4 Web Trader */
+  MT4WebTrader: string;
   /** Open Account */
   openAccount: string;
   /** Open Real Account */

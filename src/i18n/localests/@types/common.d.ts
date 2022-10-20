@@ -158,6 +158,8 @@ export type Common = {
   AndroidDownload: string;
   /** Windows download */
   WindowsDownload: string;
+  /** MT4 Web Trader */
+  MT4WebTrader: string;
   /** Customizable interface including technical analysis */
   customizableInterface: string;
   /** Open Account */

@@ -89,6 +89,7 @@ export const common: Common = {
   IOSDownload: 'MT4 IOS版本下載',
   AndroidDownload: 'MT4 Android版本下載',
   WindowsDownload: 'MT4 Windows版本下載',
+  MT4WebTrader: 'MT4 網頁版',
   customizableInterface:
     '畫圖工具及技術分析指導，一擊成交，移動止損以及具備鎖倉功能',
   openAccount: '立即開戶'

@@ -8,6 +8,7 @@ export const footer: Footer = {
   IOSDownload: 'MT4 IOS version',
   AndroidDownload: 'MT4 Android version',
   WindowsDownload: 'MT4 Windows version',
+  MT4WebTrader: 'MT4 Web Trader',
   openAccount: 'Open Account',
   openRealAccount: 'Open Real Account',
   openDemoAccount: 'Open Demo Account',

@@ -95,6 +95,7 @@ export const common: Common = {
   IOSDownload: 'MT4 IOS version',
   AndroidDownload: 'MT4 Android version',
   WindowsDownload: 'MT4 Windows version',
+  MT4WebTrader: 'MT4 Web Trader',
   customizableInterface:
     'Customizable interface including technical analysis, chart, trailing stop loss and lock-up function by one click',
   openAccount: 'Open Account'

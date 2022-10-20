@@ -77,6 +77,7 @@
   "IOSDownload": "MT4 IOS版本下载",
   "AndroidDownload": "MT4 Android版本下载",
   "WindowsDownload": "MT4 Windows版本下载",
+  "MT4WebTrader": "MT4 网页版",
   "customizableInterface": "画图工具及技术分析指导，一击成交，移动止损以及具备锁仓功能",
   "openAccount": "立即开户"
 }
