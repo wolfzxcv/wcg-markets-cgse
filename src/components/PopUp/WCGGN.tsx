@@ -77,7 +77,7 @@ const WCGGNZh: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/1V6.pdf"
         isExternal
       >
-        <Box>盈富客戶激活WCG MARKETS平台步驟</Box>
+        <Box>盈富客戶啟動WCG MARKETS平台步驟</Box>
       </Link>
 
       <Link
@@ -87,7 +87,7 @@ const WCGGNZh: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/2V6.pdf"
         isExternal
       >
-        <Box>酷極客戶激活WCG MARKETS平台步驟</Box>
+        <Box>酷極客戶啟動WCG MARKETS平台步驟</Box>
       </Link>
 
       <Box>客戶服務熱線：38963600</Box>
@@ -156,7 +156,7 @@ const WCGGNCn: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/1V6.pdf"
         isExternal
       >
-        <Box>盈富客户激活WCG MARKETS平台步骤</Box>
+        <Box>盈富客户启动WCG MARKETS平台步骤</Box>
       </Link>
 
       <Link
@@ -166,7 +166,7 @@ const WCGGNCn: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/2V6.pdf"
         isExternal
       >
-        <Box>酷极客户激活WCG MARKETS平台步骤</Box>
+        <Box>酷极客户启动WCG MARKETS平台步骤</Box>
       </Link>
 
       <Box>客户服务热线：38963600</Box>
@@ -245,7 +245,7 @@ const WCGGNEn: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/1V6.pdf"
         isExternal
       >
-        <Box>How WGG customers active WCG MARKETS&apos;s platform</Box>
+        <Box>How WGG customers launch WCG MARKETS&apos;s platform</Box>
       </Link>
 
       <Link
@@ -255,7 +255,7 @@ const WCGGNEn: React.FC<{}> = () => {
         href="https://image.wcgmarkets.com/2V6.pdf"
         isExternal
       >
-        <Box>How KUJI customers active WCG MARKETS&apos;s platform</Box>
+        <Box>How KUJI customers launch WCG MARKETS&apos;s platform</Box>
       </Link>
 
       <Box>CS Hotline: 38963600</Box>
