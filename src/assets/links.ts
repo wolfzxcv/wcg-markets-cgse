@@ -27,7 +27,7 @@ export const links = {
     process.env.NEXT_PUBLIC_USERS_CENTER ||
     'https://my.wcgmarkets-global.com/login',
   // 聯絡電話
-  tel: '4001 203 612',
+  tel: '+852 38963600',
   // 聯絡信箱
   email: 'support@wcghk.com'
 };
