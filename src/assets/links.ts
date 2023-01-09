@@ -1,4 +1,5 @@
 export const links = {
+  majkf: 'https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&accountid=135464',
   liveChat: 'https://direct.lc.chat/11929440/4',
   weibo: 'https://m.weibo.cn/u/7727884823',
   wechat: 'http://weixin.qq.com/r/eRIzKz3E0mCtrXlI90dr',

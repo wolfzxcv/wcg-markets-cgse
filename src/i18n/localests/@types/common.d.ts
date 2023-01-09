@@ -146,8 +146,6 @@ export type Common = {
   superiorAccount: string;
   /** Since the price fluctuations will be extremely violent  */
   sinceThePriceFluctuations: string;
-  /** TRADING RULES ends */
-
   /** software */
   software: string;
   /** download */
@@ -164,4 +162,10 @@ export type Common = {
   customizableInterface: string;
   /** Open Account */
   openAccount: string;
+  /** Miduoke */
+  Miduoke: string;
+  /** LiveChat */
+  LiveChat: string;
+  /** top */
+  top: string;
 };

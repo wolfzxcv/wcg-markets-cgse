@@ -92,5 +92,8 @@ export const common: Common = {
   MT4WebTrader: 'MT4 网页版',
   customizableInterface:
     '画图工具及技术分析指导，一击成交，移动止损以及具备锁仓功能',
-  openAccount: '立即开户'
+  openAccount: '立即开户',
+  Miduoke: '在线客服1',
+  LiveChat: '在线客服2',
+  top: '回到頂部'
 };

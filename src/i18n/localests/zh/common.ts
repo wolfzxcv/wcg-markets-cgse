@@ -92,5 +92,8 @@ export const common: Common = {
   MT4WebTrader: 'MT4 網頁版',
   customizableInterface:
     '畫圖工具及技術分析指導，一擊成交，移動止損以及具備鎖倉功能',
-  openAccount: '立即開戶'
+  openAccount: '立即開戶',
+  Miduoke: '線上客服1',
+  LiveChat: '線上客服2',
+  top: '回到頂部'
 };

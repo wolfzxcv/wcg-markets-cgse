@@ -98,5 +98,8 @@ export const common: Common = {
   MT4WebTrader: 'MT4 Web Trader',
   customizableInterface:
     'Customizable interface including technical analysis, chart, trailing stop loss and lock-up function by one click',
-  openAccount: 'Open Account'
+  openAccount: 'Open Account',
+  Miduoke: 'Customer service 1',
+  LiveChat: 'Customer service 2',
+  top: 'Back To Top'
 };
