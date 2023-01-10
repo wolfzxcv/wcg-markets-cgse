@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.9...v1.6.0) (2023-01-10)
+
+
+### Features
+
+* **home:** modify back to top, add online service link, add intro video ([38e8d54](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/commit/38e8d54faba7e9b362202a91b2fce37999eb318a))
+
 ### [1.5.9](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.8...v1.5.9) (2022-10-21)
 
 ### [1.5.8](https://git.wcgmarkets.com/Alice_Chou/wcg-cgse/compare/v1.5.7...v1.5.8) (2022-10-21)
